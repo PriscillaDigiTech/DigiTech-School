@@ -5,7 +5,7 @@ header {
     margin: 0 auto;
     padding: 10px 0;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     justify-content: center;
     align-items: center;
 
@@ -85,7 +85,7 @@ header {
           text-align: center;
           transition: 0.2s;
           cursor: pointer;
-          text-transform: uppercase;
+          // text-transform: uppercase;
           color: $white1;
 
           @media screen and (max-width: 770px) {
@@ -102,6 +102,7 @@ header {
 
           &:hover {
             transform: scale(1.2);
+            color: $color1;
 
             @media screen and (max-width: 770px) {
               transform: none;
@@ -116,31 +117,40 @@ header {
           }
         }
 
-        #menuHaras,
-        #menuServices {
-          .menuHarasNav,
-          .menuServicesNav {
+        #menuAbout,
+        #menuServices,
+        #menuProgrammes,
+        #menuRessources {
+          .menuAboutNav,
+          .menuServicesNav,
+          .menuProgrammesNav,
+          .menuRessourcesNav {
             display: none;
+
+            ul {
+              width: 200px;
+            }
           }
 
           &:hover {
             display: block;
             position: relative;
 
-            .menuHarasNav,
-            .menuServicesNav {
+            .menuAboutNav,
+            .menuServicesNav,
+            .menuProgrammesNav,
+            .menuRessourcesNav {
               display: block;
               position: absolute;
               ul {
                 display: block;
-                width: 150px;
                 text-align: left;
                 text-transform: none;
                 margin: 10px 0;
                 background: $white1;
-                color: $color1;
+                color: $bg;
                 list-style: none;
-
+                border-top: 2px solid $color1;
                 @media screen and (max-width: 770px) {
                   width: 420px;
                   text-align: center;
@@ -164,22 +174,12 @@ header {
           }
         }
 
-        #menuHaras {
-          &:hover {
-            .menuHarasNav {
-              ul {
-                width: 150px;
-              }
-            }
-          }
-        }
-
-        #menuServices {
-          &:hover {
-            .menuServicesNav {
-              ul {
-                width: 250px;
-              }
+        #menuServices,
+        #menuRessources {
+          .menuServicesNav,
+          .menuRessourcesNav {
+            ul {
+              width: 250px;
             }
           }
         }
