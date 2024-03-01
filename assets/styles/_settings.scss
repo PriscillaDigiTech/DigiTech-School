@@ -1,0 +1,52 @@
+//fonts
+
+@font-face {
+  font-family: "nunito";
+  src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+
+$font1: nunito, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+
+//colors
+
+$color1: #ea4d8f;
+$color2: #67dfde;
+$color3: #fbdc61;
+$black1: #000;
+$white1: #fff;
+$text: #333;
+$grey1: #f1f1f1;
+$bg: #090a29;
+$blackShadow: rgba(0, 0, 0, 0.25);
+$whiteShadow: rgba(255, 255, 255, 0.25);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: $font1;
+}
+
+body {
+  color: $text;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
