@@ -21,6 +21,14 @@ $bg: #090a29;
 $blackShadow: rgba(0, 0, 0, 0.25);
 $whiteShadow: rgba(255, 255, 255, 0.25);
 
+//container
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+//general
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +40,7 @@ $whiteShadow: rgba(255, 255, 255, 0.25);
 body {
   color: $text;
   font-size: 1rem;
+  text-align: center;
 }
 
 h1,
@@ -49,4 +58,21 @@ h6 {
 a,
 a:visited {
   text-decoration: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid $color1;
+  border-radius: 150px;
+  background: transparent;
+  color: $color1;
+  font-size: 1rem;
+  box-shadow: 0px 2px 1px $blackShadow;
+  transition: 0.2s;
+  &:hover {
+    background: $color1;
+    color: $white1;
+    transform: scale(1.05);
+  }
 }

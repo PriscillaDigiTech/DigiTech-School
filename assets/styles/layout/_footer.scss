@@ -1,3 +1,44 @@
 footer {
   background: $bg;
+
+  .footerNiveau1 {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      @media screen and (max-width: 905px) {
+        grid-template-columns: 1fr;
+      }
+
+      div {
+        padding: 20px;
+        text-align: center;
+
+        h4 {
+          padding: 20px;
+        }
+
+        ul {
+          list-style: none;
+
+          li {
+            padding: 5px;
+            a {
+              color: $white1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footerNiveau2 {
+    .container {
+      padding: 20px;
+      p {
+        color: $white1;
+        font-size: 0.9rem;
+      }
+    }
+  }
 }

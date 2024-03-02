@@ -1,0 +1,59 @@
+.accueil {
+  .container {
+    height: 80vh;
+    background: url(../img/accueil.webp) no-repeat left/contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    h1 {
+      padding-bottom: 30px;
+    }
+
+    p {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.about {
+  background: $bg;
+
+  .container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    h2 {
+      padding-bottom: 30px;
+    }
+
+    p {
+      padding-bottom: 20px;
+      color: $white1;
+    }
+  }
+}
+
+.services {
+  .container {
+    h2 {
+      padding-bottom: 50px;
+    }
+    .services-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        border: 1px solid $grey1;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px $blackShadow;
+      }
+    }
+  }
+}
