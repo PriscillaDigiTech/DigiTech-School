@@ -3,7 +3,7 @@
   src: url(../fonts/Nunito-VariableFont_wght.ttf);
 }
 .container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -66,7 +66,7 @@ header {
   background: #090a29;
 }
 header nav {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   padding: 10px 0;
   display: grid;
@@ -109,6 +109,10 @@ header nav a img:hover {
 header nav a h1 {
   text-transform: uppercase;
   font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+header nav a p {
+  color: #fff;
   margin-bottom: 20px;
 }
 header nav .menu-icons {
