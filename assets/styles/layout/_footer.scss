@@ -15,8 +15,8 @@ footer {
         text-align: center;
 
         img {
-          width: 90%;
-          margin: 0 auto;
+          width: 60%;
+          margin: 0 auto 20px;
           transition: 0.2s;
           filter: drop-shadow(1px 1px 1px $whiteShadow);
 
@@ -28,6 +28,14 @@ footer {
           &:hover {
             transform: scale(1.05);
           }
+        }
+
+        h2 {
+          padding-bottom: 10px;
+        }
+
+        p {
+          color: $white1;
         }
 
         h4 {

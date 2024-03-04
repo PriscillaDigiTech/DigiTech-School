@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DigiTech Academy</title>
-    <link rel="shortcut icon" href="./assets/img/DigiTech_Academy_icon.png" />
+    <title>DigiTech School</title>
+    <link rel="shortcut icon" href="./assets/img/DigiTech_School_icon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -17,83 +17,96 @@
   <body onload="windowLoad()">
     <header>
       <nav>
-        <a href="./index.html"
-          ><img
-            src="./assets/img/Logo_DigiTech_Academy.png"
-            alt="Logo DigiTech Academy"
-        /></a>
+        <a href="./index.html">
+          <img
+            src="./assets/img/DigiTech_School_icon.png"
+            alt="Logo DigiTech School"
+          />
+          <h1>DigiTech School</h1>
+        </a>
         <div class="menu-icons">
           <i class="fa-solid fa-bars" id="open-icon" onclick="openNav()"></i>
           <i class="fa-solid fa-xmark" id="close-icon" onclick="closeNav()"></i>
         </div>
         <div class="menuNav">
           <ul class="NavListLi">
-            <li class="liNav">Accueil</li>
+            <li class="liNav"><a href="#">Accueil</a></li>
             <li class="liNav" id="menuAbout">
-              À propos <i class="fa-solid fa-caret-down"></i>
+              <a href="#">À propos <i class="fa-solid fa-caret-down"></i></a>
               <div class="menuAboutNav">
                 <ul>
-                  <li>Qui sommes-nous ?</li>
-                  <li>L'équipe</li>
-                  <li>Horaires</li>
-                  <li>Inscription</li>
+                  <li><a href="#">Qui sommes-nous ?</a></li>
+                  <li><a href="#">L'équipe</a></li>
+                  <li><a href="#">Horaires</a></li>
+                  <li><a href="#">Inscription</a></li>
                 </ul>
               </div>
             </li>
             <li class="liNav" id="menuServices">
-              Services <i class="fa-solid fa-caret-down"></i>
+              <a href="#">Services <i class="fa-solid fa-caret-down"></i></a>
               <div class="menuServicesNav">
                 <ul>
                   <li id="menuFormationsEnfants">
-                    Pour les enfants
-                    <i class="fa-solid fa-caret-right"></i>
+                    <a href="#"
+                      >Pour les enfants <i class="fa-solid fa-caret-right"></i
+                    ></a>
                     <div class="menuFormationsEnfantsNav">
                       <ul>
-                        <li>Ateliers</li>
-                        <li>Cours</li>
-                        <li>DigiBootCamp</li>
-                        <li>Hackathons</li>
-                        <li>Concours</li>
-                        <li>Club</li>
+                        <li><a href="#">Ateliers</a></li>
+                        <li><a href="#">Cours</a></li>
+                        <li><a href="#">DigiBootCamp</a></li>
+                        <li><a href="#">Hackathons</a></li>
+                        <li><a href="#">Concours</a></li>
+                        <li><a href="#">Clubs</a></li>
                       </ul>
                     </div>
                   </li>
                   <li id="menuFormationsEnfants">
-                    Pour les familles
-                    <i class="fa-solid fa-caret-right"></i>
+                    <a href="#"
+                      >Pour les familles <i class="fa-solid fa-caret-right"></i
+                    ></a>
                     <div class="menuFormationsEnfantsNav">
                       <ul>
-                        <li>Ateliers parents-enfants</li>
+                        <li><a href="#">Ateliers parents-enfants</a></li>
                       </ul>
                     </div>
                   </li>
                   <li id="menuFormationsEnfants">
-                    Pour les enseignants
-                    <i class="fa-solid fa-caret-right"></i>
+                    <a href="#"
+                      >Pour les enseignants
+                      <i class="fa-solid fa-caret-right"></i
+                    ></a>
                     <div class="menuFormationsEnfantsNav">
                       <ul>
-                        <li>Initiation à la programmation</li>
-                        <li>Développement Web</li>
-                        <li>Graphisme</li>
-                        <li>Utilisation de logiciels éducatifs</li>
-                        <li>Pédagogie numérique</li>
-                        <li>Animation et création de jeux vidéo éducatifs</li>
-                        <li>Robotique pédagogique</li>
+                        <li><a href="#">Initiation à la programmation</a></li>
+                        <li><a href="#">Développement Web</a></li>
+                        <li><a href="#">Graphisme</a></li>
+                        <li>
+                          <a href="#">Utilisation de logiciels éducatifs</a>
+                        </li>
+                        <li><a href="#">Pédagogie numérique</a></li>
+                        <li>
+                          <a href="#"
+                            >Animation et création de jeux vidéo éducatifs</a
+                          >
+                        </li>
+                        <li><a href="#">Robotique pédagogique</a></li>
                       </ul>
                     </div>
                   </li>
                   <li id="menuFormationsEnfants">
-                    Pour les écoles
-                    <i class="fa-solid fa-caret-right"></i>
+                    <a href="#"
+                      >Pour les écoles <i class="fa-solid fa-caret-right"></i
+                    ></a>
                     <div class="menuFormationsEnfantsNav">
                       <ul>
-                        <li>Ateliers périscolaires</li>
-                        <li>Interventions en classe</li>
-                        <li>Clubs informatiques</li>
-                        <li>Projets collaboratifs</li>
-                        <li>Formations pour les enseignants</li>
-                        <li>Événements et concours</li>
-                        <li>Ressources pédagogiques</li>
+                        <li><a href="#">Ateliers périscolaires</a></li>
+                        <li><a href="#">Interventions en classe</a></li>
+                        <li><a href="#">Clubs informatiques</a></li>
+                        <li><a href="#">Projets collaboratifs</a></li>
+                        <li><a href="#">Formations pour les enseignants</a></li>
+                        <li><a href="#">Événements et concours</a></li>
+                        <li><a href="#">Ressources pédagogiques</a></li>
                       </ul>
                     </div>
                   </li>
@@ -102,26 +115,26 @@
             </li>
 
             <li class="liNav" id="menuRessources">
-              Ressources <i class="fa-solid fa-caret-down"></i>
+              <a href="#">Ressources <i class="fa-solid fa-caret-down"></i></a>
               <div class="menuRessourcesNav">
                 <ul>
-                  <li>Articles et blog</li>
-                  <li>Outils et logiciels recommandés</li>
-                  <li>FAQ</li>
+                  <li><a href="#">Articles et blog</a></li>
+                  <li><a href="#">Outils et logiciels recommandés</a></li>
+                  <li><a href="#">FAQ</a></li>
                 </ul>
               </div>
             </li>
             <li class="liNav" id="menuEvents">
-              Actualités <i class="fa-solid fa-caret-down"></i>
+              <a href="#">Actualités <i class="fa-solid fa-caret-down"></i></a>
               <div class="menuEventsNav">
                 <ul>
-                  <li>Les actualités</li>
-                  <li>Liste des événements à venir</li>
-                  <li>Inscription aux événements</li>
+                  <li><a href="#">Les actualités</a></li>
+                  <li><a href="#">Liste des événements à venir</a></li>
+                  <li><a href="#">Inscription aux événements</a></li>
                 </ul>
               </div>
             </li>
-            <li class="liNav">Nous contacter</li>
+            <li class="liNav"><a href="#">Nous contacter</a></li>
           </ul>
         </div>
       </nav>
@@ -131,10 +144,14 @@
         <div class="container">
           <div></div>
           <div>
-            <h1>Bienvenue à DigiTech School</h1>
+            <h2>Bienvenue à DigiTech School</h2>
+            <h3>L'école des passionnés du numérique !</h3>
             <p>
-              Découvrez l'école d'informatique et de technologies pour enfants à
-              partir de 3 ans !
+              Notre mission est d'offrir aux enfants et aux adolescents un
+              environnement d'apprentissage stimulant et ludique pour développer
+              leurs compétences en informatique, programmation et graphisme.
+              Nous croyons que la maîtrise des technologies numériques est
+              essentielle pour réussir dans le monde d'aujourd'hui et de demain.
             </p>
             <button>Découvrir nos services</button>
           </div>
@@ -161,8 +178,8 @@
           </div>
           <div>
             <img
-              src="./assets/img/Logo_DigiTech_Academy.png"
-              alt="Logo DigiTech Academy"
+              src="./assets/img/DigiTech_School_icon.png"
+              alt="Logo DigiTech School"
             />
           </div>
         </div>
@@ -233,9 +250,11 @@
           <div>
             <a href="./index.html"
               ><img
-                src="./assets/img/Logo_DigiTech_Academy.png"
-                alt="Logo DigiTech Academy"
+                src="./assets/img/DigiTech_School_icon.png"
+                alt="Logo DigiTech School"
             /></a>
+            <h2>DigiTech School</h2>
+            <p>Le numérique, c'est magique !</p>
           </div>
           <div>
             <h4>Liens utiles</h4>
