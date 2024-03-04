@@ -171,7 +171,7 @@ header nav .menuNav .NavListLi {
 }
 header nav .menuNav .NavListLi .liNav {
   list-style: none;
-  padding: 5px 10px;
+  padding: 5px;
   text-align: center;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -283,6 +283,82 @@ header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul,
 header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul {
   width: 200px;
+}
+header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuClubsNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuClubsNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuClubsNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuClubs .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuClubs .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuClubs .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuClubs .menuClubsNav ul li a,
+header nav .menuNav .NavListLi #menuClubs .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuClubs .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuClubsNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
+  color: #090a29;
+}
+header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout .menuClubsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices .menuClubsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes .menuClubsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuClubs .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuClubs .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuClubs .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuClubs .menuClubsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuClubs .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuClubs .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents .menuClubsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li:hover a {
+  color: #fff;
 }
 header nav .menuNav .NavListLi #menuAbout:hover,
 header nav .menuNav .NavListLi #menuServices:hover,
@@ -546,11 +622,16 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   border-bottom: 1px solid rgba(241, 241, 241, 0.8);
   font-size: 0.8rem;
 }
+header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li a {
+  color: #090a29;
+}
 header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li:hover {
-  color: #fff;
   background: #ea4d8f;
   -webkit-transform: none;
           transform: none;
+}
+header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li:hover a {
+  color: #fff;
 }
 
 footer {
