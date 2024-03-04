@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DigiTech School</title>
-    <link rel="shortcut icon" href="./assets/img/Logo_DigiTech_School.png" />
+    <title>DigiTech Academy</title>
+    <link rel="shortcut icon" href="./assets/img/DigiTech_Academy_icon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -19,8 +19,8 @@
       <nav>
         <a href="./index.html"
           ><img
-            src="./assets/img/Logo_DigiTech_School.png"
-            alt="Logo DigiTech School"
+            src="./assets/img/Logo_DigiTech_Academy.png"
+            alt="Logo DigiTech Academy"
         /></a>
         <div class="menu-icons">
           <i class="fa-solid fa-bars" id="open-icon" onclick="openNav()"></i>
@@ -33,9 +33,10 @@
               À propos <i class="fa-solid fa-caret-down"></i>
               <div class="menuAboutNav">
                 <ul>
-                  <li>Notre histoire</li>
-                  <li>Notre équipe</li>
+                  <li>Qui sommes-nous ?</li>
+                  <li>L'équipe</li>
                   <li>Horaires</li>
+                  <li>Inscription</li>
                 </ul>
               </div>
             </li>
@@ -43,28 +44,63 @@
               Services <i class="fa-solid fa-caret-down"></i>
               <div class="menuServicesNav">
                 <ul>
-                  <li>Ateliers de sensibilisation</li>
-                  <li>Cours de graphisme (3 à 17 ans)</li>
-                  <li>Cours d'informatique (6 à 17 ans)</li>
-                  <li>Cours de programmation (10 à 17 ans)</li>
-                  <li>Organisation d'hackathon (6 à 17 ans)</li>
-                  <li>DigiBootCamp (3 à 17 ans)</li>
+                  <li id="menuFormationsEnfants">
+                    Pour les enfants
+                    <i class="fa-solid fa-caret-right"></i>
+                    <div class="menuFormationsEnfantsNav">
+                      <ul>
+                        <li>Ateliers</li>
+                        <li>Cours</li>
+                        <li>DigiBootCamp</li>
+                        <li>Hackathons</li>
+                        <li>Concours</li>
+                        <li>Club</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="menuFormationsEnfants">
+                    Pour les familles
+                    <i class="fa-solid fa-caret-right"></i>
+                    <div class="menuFormationsEnfantsNav">
+                      <ul>
+                        <li>Ateliers parents-enfants</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="menuFormationsEnfants">
+                    Pour les enseignants
+                    <i class="fa-solid fa-caret-right"></i>
+                    <div class="menuFormationsEnfantsNav">
+                      <ul>
+                        <li>Initiation à la programmation</li>
+                        <li>Développement Web</li>
+                        <li>Graphisme</li>
+                        <li>Utilisation de logiciels éducatifs</li>
+                        <li>Pédagogie numérique</li>
+                        <li>Animation et création de jeux vidéo éducatifs</li>
+                        <li>Robotique pédagogique</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="menuFormationsEnfants">
+                    Pour les écoles
+                    <i class="fa-solid fa-caret-right"></i>
+                    <div class="menuFormationsEnfantsNav">
+                      <ul>
+                        <li>Ateliers périscolaires</li>
+                        <li>Interventions en classe</li>
+                        <li>Clubs informatiques</li>
+                        <li>Projets collaboratifs</li>
+                        <li>Formations pour les enseignants</li>
+                        <li>Événements et concours</li>
+                        <li>Ressources pédagogiques</li>
+                      </ul>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </li>
-            <li class="liNav" id="menuProgrammes">
-              Programmes <i class="fa-solid fa-caret-down"></i>
-              <div class="menuProgrammesNav">
-                <ul>
-                  <li>Ateliers de sensibilisation</li>
-                  <li>Cours de graphisme</li>
-                  <li>Cours d'informatique</li>
-                  <li>Cours de programmation</li>
-                  <li>Organisation d'hackathon</li>
-                  <li>DigiBootCamp</li>
-                </ul>
-              </div>
-            </li>
+
             <li class="liNav" id="menuRessources">
               Ressources <i class="fa-solid fa-caret-down"></i>
               <div class="menuRessourcesNav">
@@ -75,7 +111,16 @@
                 </ul>
               </div>
             </li>
-            <li class="liNav">Actualités</li>
+            <li class="liNav" id="menuEvents">
+              Actualités <i class="fa-solid fa-caret-down"></i>
+              <div class="menuEventsNav">
+                <ul>
+                  <li>Les actualités</li>
+                  <li>Liste des événements à venir</li>
+                  <li>Inscription aux événements</li>
+                </ul>
+              </div>
+            </li>
             <li class="liNav">Nous contacter</li>
           </ul>
         </div>
@@ -116,8 +161,8 @@
           </div>
           <div>
             <img
-              src="./assets/img/Logo_DigiTech_School.png"
-              alt="Logo DigiTech School"
+              src="./assets/img/Logo_DigiTech_Academy.png"
+              alt="Logo DigiTech Academy"
             />
           </div>
         </div>
@@ -186,10 +231,11 @@
       <div class="footerNiveau1">
         <div class="container">
           <div>
-            <img
-              src="./assets/img/Logo_DigiTech_School.png"
-              alt="Logo DigiTech School"
-            />
+            <a href="./index.html"
+              ><img
+                src="./assets/img/Logo_DigiTech_Academy.png"
+                alt="Logo DigiTech Academy"
+            /></a>
           </div>
           <div>
             <h4>Liens utiles</h4>
@@ -198,7 +244,7 @@
               <li>
                 <a href="#"> Services </a>
               </li>
-              <li><a href="#">Programmes</a></li>
+              <li><a href="#">Évènement</a></li>
               <li><a href="#">Ressources</a></li>
               <li><a href="#">Actualités</a></li>
               <li><a href="#">Contact</a></li>
@@ -211,6 +257,20 @@
               <li><a href="#">Confidentialité</a></li>
               <li><a href="#">Cookies</a></li>
               <li><a href="#">CGU</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Nous suivre</h4>
+            <ul class="social-link">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </li>
             </ul>
           </div>
         </div>

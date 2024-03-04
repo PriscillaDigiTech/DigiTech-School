@@ -1,7 +1,7 @@
 header {
   background: $bg;
   nav {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 10px 0;
     display: grid;
@@ -18,9 +18,9 @@ header {
       width: 100%;
       margin: 0 auto;
       img {
-        width: 50%;
+        width: 90%;
         transition: 0.2s;
-        filter: drop-shadow(1px 1px 1px $blackShadow);
+        filter: drop-shadow(1px 1px 1px $whiteShadow);
 
         @media screen and (max-width: 770px) {
           width: 30%;
@@ -28,7 +28,7 @@ header {
         }
 
         &:hover {
-          transform: scale(1.2);
+          transform: scale(1.05);
         }
       }
     }
@@ -120,10 +120,14 @@ header {
         #menuAbout,
         #menuServices,
         #menuProgrammes,
+        #menuClubs,
+        #menuEvents,
         #menuRessources {
           .menuAboutNav,
           .menuServicesNav,
           .menuProgrammesNav,
+          .menuClubsNav,
+          .menuEventsNav,
           .menuRessourcesNav {
             display: none;
 
@@ -139,6 +143,8 @@ header {
             .menuAboutNav,
             .menuServicesNav,
             .menuProgrammesNav,
+            .menuClubsNav,
+            .menuEventsNav,
             .menuRessourcesNav {
               display: block;
               position: absolute;
@@ -174,12 +180,68 @@ header {
           }
         }
 
-        #menuServices,
+        #menuServices {
+          .menuServicesNav {
+            ul {
+              width: 170px;
+            }
+          }
+        }
+
         #menuRessources {
-          .menuServicesNav,
           .menuRessourcesNav {
             ul {
               width: 250px;
+            }
+          }
+        }
+
+        #menuFormationsEnfants {
+          .menuFormationsEnfantsNav {
+            display: none;
+
+            ul {
+              width: 200px;
+            }
+          }
+
+          &:hover {
+            display: block;
+            position: relative;
+
+            .menuFormationsEnfantsNav {
+              display: block;
+              position: absolute;
+              top: -12px;
+              left: 170px;
+              ul {
+                display: block;
+                text-align: left;
+                text-transform: none;
+                margin: 10px 0;
+                background: $white1;
+                color: $bg;
+                list-style: none;
+                border-top: 2px solid $color1;
+                @media screen and (max-width: 770px) {
+                  width: 420px;
+                  text-align: center;
+                  color: $color1;
+                }
+
+                li {
+                  list-style: none;
+                  padding: 10px;
+                  border-bottom: 1px solid rgba(241, 241, 241, 0.8);
+                  font-size: 0.8rem;
+
+                  &:hover {
+                    color: $white1;
+                    background: $color1;
+                    transform: none;
+                  }
+                }
+              }
             }
           }
         }

@@ -4,7 +4,7 @@ footer {
   .footerNiveau1 {
     .container {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
 
       @media screen and (max-width: 905px) {
         grid-template-columns: 1fr;
@@ -13,6 +13,22 @@ footer {
       div {
         padding: 20px;
         text-align: center;
+
+        img {
+          width: 90%;
+          margin: 0 auto;
+          transition: 0.2s;
+          filter: drop-shadow(1px 1px 1px $whiteShadow);
+
+          @media screen and (max-width: 770px) {
+            width: 30%;
+            margin: 0 auto;
+          }
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
 
         h4 {
           padding: 20px;
@@ -25,6 +41,28 @@ footer {
             padding: 5px;
             a {
               color: $white1;
+              transition: 0.2s;
+
+              &:hover {
+                color: $color1;
+              }
+            }
+          }
+        }
+
+        .social-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          i {
+            margin: 5px;
+            font-size: 1.5rem;
+            transition: 0.2s;
+
+            &:hover {
+              color: $color1;
+              transform: translateY(-5px);
             }
           }
         }
@@ -34,7 +72,7 @@ footer {
 
   .footerNiveau2 {
     .container {
-      padding: 20px;
+      padding: 0 20px 20px;
       p {
         color: $white1;
         font-size: 0.9rem;

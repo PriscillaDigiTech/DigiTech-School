@@ -31,6 +31,18 @@
       padding-bottom: 20px;
       color: $white1;
     }
+
+    img {
+      width: 80%;
+      margin: 0 auto;
+      transition: 0.2s;
+      filter: drop-shadow(1px 1px 1px $whiteShadow);
+
+      @media screen and (max-width: 770px) {
+        width: 30%;
+        margin: 0 auto;
+      }
+    }
   }
 }
 
