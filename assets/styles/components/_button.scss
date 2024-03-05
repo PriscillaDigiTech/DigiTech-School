@@ -1,0 +1,16 @@
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid $black1;
+  border-radius: 150px;
+  background: transparent;
+  color: $black1;
+  font-size: 1rem;
+  box-shadow: 0px 2px 1px $blackShadow;
+  transition: 0.2s;
+  &:hover {
+    background: $black1;
+    color: $white1;
+    transform: scale(1.05);
+  }
+}

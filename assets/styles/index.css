@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #e6b459;
+  color: #070604;
   letter-spacing: 1px;
   font-weight: normal;
 }
@@ -42,29 +42,9 @@ a:visited {
   text-decoration: none;
 }
 
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: 2px solid #e6b459;
-  border-radius: 150px;
-  background: transparent;
-  color: #e6b459;
-  font-size: 1rem;
-  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-button:hover {
-  background: #e6b459;
-  color: #fff;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 header {
-  background: -webkit-gradient(linear, left top, right top, from(#ea4d8f), to(#67dfde));
-  background: linear-gradient(90deg, #ea4d8f, #67dfde);
+  background: -webkit-gradient(linear, left top, right top, from(#0250c5), to(#d43f8d));
+  background: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
 }
 header nav {
   width: 85%;
@@ -91,7 +71,6 @@ header nav a {
 }
 header nav a img {
   width: 100%;
-  margin-bottom: 10px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -119,7 +98,7 @@ header nav a p {
 header nav .menu-icons {
   display: none;
   text-align: right;
-  color: #e6b459;
+  color: #070604;
 }
 @media screen and (max-width: 770px) {
   header nav .menu-icons {
@@ -181,7 +160,7 @@ header nav .menuNav .NavListLi .liNav {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   cursor: pointer;
-  color: #fff;
+  color: #070604;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi .liNav {
@@ -191,14 +170,13 @@ header nav .menuNav .NavListLi .liNav {
   }
 }
 header nav .menuNav .NavListLi .liNav a {
-  color: #e6b459;
+  color: #070604;
   width: 100%;
   height: 100%;
 }
 header nav .menuNav .NavListLi .liNav:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: #e6b459;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi .liNav:hover {
@@ -210,7 +188,7 @@ header nav .menuNav .NavListLi .liNav:hover {
     color: #fff;
   }
   header nav .menuNav .NavListLi .liNav:hover a {
-    color: #fff;
+    color: #070604;
   }
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav,
@@ -325,7 +303,7 @@ header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
-  color: linear-gradient(90deg, #ea4d8f, #67dfde);
+  color: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li:hover a,
 header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li:hover a,
@@ -454,7 +432,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   text-transform: none;
   margin: 10px 0;
   background: #fff;
-  color: linear-gradient(90deg, #ea4d8f, #67dfde);
+  color: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
   list-style: none;
   border-top: 2px solid #e6b459;
 }
@@ -610,7 +588,7 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   text-transform: none;
   margin: 10px 0;
   background: #fff;
-  color: linear-gradient(90deg, #ea4d8f, #67dfde);
+  color: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
   list-style: none;
   border-top: 2px solid #e6b459;
 }
@@ -628,7 +606,7 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   font-size: 0.8rem;
 }
 header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li a {
-  color: linear-gradient(90deg, #ea4d8f, #67dfde);
+  color: #070604;
 }
 header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li:hover {
   background: #e6b459;
@@ -639,9 +617,29 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   color: #fff;
 }
 
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #070604;
+  border-radius: 150px;
+  background: transparent;
+  color: #070604;
+  font-size: 1rem;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+button:hover {
+  background: #070604;
+  color: #fff;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 footer {
-  background: -webkit-gradient(linear, left top, right top, from(#ea4d8f), to(#67dfde));
-  background: linear-gradient(90deg, #ea4d8f, #67dfde);
+  background: -webkit-gradient(linear, left top, right top, from(#0250c5), to(#d43f8d));
+  background: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
 }
 footer .footerNiveau1 .container {
   display: grid;
@@ -736,20 +734,34 @@ footer .footerNiveau2 .container p {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1100px) {
+  .accueil .container {
+    grid-template-columns: 1fr;
+    height: auto;
+    background: none;
+  }
+  .accueil .container #img-hero {
+    height: 60vh;
+    background: url(../img/accueil.webp) no-repeat center/contain;
+    margin-bottom: 30px;
+  }
+}
 .accueil .container h2 {
   padding-bottom: 10px;
   text-transform: uppercase;
+  color: #ea4d8f;
 }
 .accueil .container h3 {
   padding-bottom: 20px;
+  color: #e6b459;
 }
 .accueil .container p {
   padding-bottom: 20px;
 }
 
 .about {
-  background: -webkit-gradient(linear, left top, right top, from(#ea4d8f), to(#67dfde));
-  background: linear-gradient(90deg, #ea4d8f, #67dfde);
+  background: -webkit-gradient(linear, left top, right top, from(#0250c5), to(#d43f8d));
+  background: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
 }
 .about .container {
   display: grid;
