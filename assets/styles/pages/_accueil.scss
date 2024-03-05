@@ -26,8 +26,12 @@
 
   .container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 30% 70%;
     align-items: center;
+
+    @media screen and (max-width: 770px) {
+      grid-template-columns: 1fr;
+    }
     h2 {
       padding-bottom: 30px;
     }
@@ -38,12 +42,12 @@
     }
 
     img {
-      width: 60%;
+      width: 100%;
       transition: 0.2s;
       filter: drop-shadow(1px 1px 1px $whiteShadow);
 
       @media screen and (max-width: 770px) {
-        width: 30%;
+        width: 50%;
         margin: 0 auto;
       }
     }

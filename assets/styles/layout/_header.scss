@@ -19,10 +19,9 @@ header {
       margin: 0 auto;
 
       img {
-        width: 60%;
+        width: 100%;
         margin-bottom: 10px;
         transition: 0.2s;
-        filter: drop-shadow(1px 1px 1px $whiteShadow);
 
         @media screen and (max-width: 770px) {
           width: 30%;
@@ -31,6 +30,7 @@ header {
 
         &:hover {
           transform: scale(1.05);
+          filter: drop-shadow(1px 1px 1px $blackShadow);
         }
       }
 

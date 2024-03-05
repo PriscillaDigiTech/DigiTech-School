@@ -10,14 +10,16 @@ $font1: nunito, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 
 //colors
 
-$color1: #ea4d8f;
-$color2: #67dfde;
-$color3: #fbdc61;
-$black1: #000;
+$color1: #e6b459;
+$color2: #766240;
+$color3: #231b0d;
+$color4: #ea4d8f;
+$color5: #67dfde;
+$black1: #070604;
 $white1: #fff;
 $text: #333;
-$grey1: #f1f1f1;
-$bg: #090a29;
+$grey1: #dfdfdf;
+$bg: linear-gradient(90deg, $color4, $color5);
 $blackShadow: rgba(0, 0, 0, 0.25);
 $whiteShadow: rgba(255, 255, 255, 0.25);
 

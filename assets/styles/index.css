@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ea4d8f;
+  color: #e6b459;
   letter-spacing: 1px;
   font-weight: normal;
 }
@@ -45,10 +45,10 @@ a:visited {
 button {
   margin-top: 20px;
   padding: 10px 20px;
-  border: 2px solid #ea4d8f;
+  border: 2px solid #e6b459;
   border-radius: 150px;
   background: transparent;
-  color: #ea4d8f;
+  color: #e6b459;
   font-size: 1rem;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
@@ -56,14 +56,15 @@ button {
   transition: 0.2s;
 }
 button:hover {
-  background: #ea4d8f;
+  background: #e6b459;
   color: #fff;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
 header {
-  background: #090a29;
+  background: -webkit-gradient(linear, left top, right top, from(#ea4d8f), to(#67dfde));
+  background: linear-gradient(90deg, #ea4d8f, #67dfde);
 }
 header nav {
   width: 85%;
@@ -89,12 +90,10 @@ header nav a {
   margin: 0 auto;
 }
 header nav a img {
-  width: 60%;
+  width: 100%;
   margin-bottom: 10px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
-          filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
 }
 @media screen and (max-width: 770px) {
   header nav a img {
@@ -105,6 +104,8 @@ header nav a img {
 header nav a img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
 }
 header nav a h1 {
   text-transform: uppercase;
@@ -118,7 +119,7 @@ header nav a p {
 header nav .menu-icons {
   display: none;
   text-align: right;
-  color: #ea4d8f;
+  color: #e6b459;
 }
 @media screen and (max-width: 770px) {
   header nav .menu-icons {
@@ -185,19 +186,19 @@ header nav .menuNav .NavListLi .liNav {
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi .liNav {
     padding: 10px 0;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #dfdfdf;
     border-radius: 0;
   }
 }
 header nav .menuNav .NavListLi .liNav a {
-  color: #ea4d8f;
+  color: #e6b459;
   width: 100%;
   height: 100%;
 }
 header nav .menuNav .NavListLi .liNav:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: #ea4d8f;
+  color: #e6b459;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi .liNav:hover {
@@ -205,7 +206,7 @@ header nav .menuNav .NavListLi .liNav:hover {
             transform: none;
     -webkit-box-shadow: none;
             box-shadow: none;
-    background: #ea4d8f;
+    background: #e6b459;
     color: #fff;
   }
   header nav .menuNav .NavListLi .liNav:hover a {
@@ -324,7 +325,7 @@ header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
-  color: #090a29;
+  color: linear-gradient(90deg, #ea4d8f, #67dfde);
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li:hover a,
 header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li:hover a,
@@ -453,9 +454,9 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   text-transform: none;
   margin: 10px 0;
   background: #fff;
-  color: #090a29;
+  color: linear-gradient(90deg, #ea4d8f, #67dfde);
   list-style: none;
-  border-top: 2px solid #ea4d8f;
+  border-top: 2px solid #e6b459;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul,
@@ -496,7 +497,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
     width: 420px;
     text-align: center;
-    color: #ea4d8f;
+    color: #e6b459;
   }
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li,
@@ -577,7 +578,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuClubsNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover {
   color: #fff;
-  background: #ea4d8f;
+  background: #e6b459;
   -webkit-transform: none;
           transform: none;
 }
@@ -609,15 +610,15 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   text-transform: none;
   margin: 10px 0;
   background: #fff;
-  color: #090a29;
+  color: linear-gradient(90deg, #ea4d8f, #67dfde);
   list-style: none;
-  border-top: 2px solid #ea4d8f;
+  border-top: 2px solid #e6b459;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul {
     width: 420px;
     text-align: center;
-    color: #ea4d8f;
+    color: #e6b459;
   }
 }
 header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li {
@@ -627,10 +628,10 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   font-size: 0.8rem;
 }
 header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li a {
-  color: #090a29;
+  color: linear-gradient(90deg, #ea4d8f, #67dfde);
 }
 header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li:hover {
-  background: #ea4d8f;
+  background: #e6b459;
   -webkit-transform: none;
           transform: none;
 }
@@ -639,7 +640,8 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
 }
 
 footer {
-  background: #090a29;
+  background: -webkit-gradient(linear, left top, right top, from(#ea4d8f), to(#67dfde));
+  background: linear-gradient(90deg, #ea4d8f, #67dfde);
 }
 footer .footerNiveau1 .container {
   display: grid;
@@ -655,7 +657,7 @@ footer .footerNiveau1 .container div {
   text-align: center;
 }
 footer .footerNiveau1 .container div img {
-  width: 60%;
+  width: 100%;
   margin: 0 auto 20px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -664,7 +666,7 @@ footer .footerNiveau1 .container div img {
 }
 @media screen and (max-width: 770px) {
   footer .footerNiveau1 .container div img {
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
   }
 }
@@ -693,7 +695,7 @@ footer .footerNiveau1 .container div ul li a {
   transition: 0.2s;
 }
 footer .footerNiveau1 .container div ul li a:hover {
-  color: #ea4d8f;
+  color: #e6b459;
 }
 footer .footerNiveau1 .container div .social-link {
   display: -webkit-box;
@@ -713,7 +715,7 @@ footer .footerNiveau1 .container div .social-link i {
   transition: 0.2s;
 }
 footer .footerNiveau1 .container div .social-link i:hover {
-  color: #ea4d8f;
+  color: #e6b459;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -746,14 +748,20 @@ footer .footerNiveau2 .container p {
 }
 
 .about {
-  background: #090a29;
+  background: -webkit-gradient(linear, left top, right top, from(#ea4d8f), to(#67dfde));
+  background: linear-gradient(90deg, #ea4d8f, #67dfde);
 }
 .about .container {
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 30% 70%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 770px) {
+  .about .container {
+    grid-template-columns: 1fr;
+  }
 }
 .about .container h2 {
   padding-bottom: 30px;
@@ -763,7 +771,7 @@ footer .footerNiveau2 .container p {
   color: #fff;
 }
 .about .container img {
-  width: 60%;
+  width: 100%;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
@@ -771,7 +779,7 @@ footer .footerNiveau2 .container p {
 }
 @media screen and (max-width: 770px) {
   .about .container img {
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
   }
 }
@@ -796,7 +804,7 @@ footer .footerNiveau2 .container p {
           align-items: center;
   height: 200px;
   padding: 20px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #dfdfdf;
   border-radius: 20px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
