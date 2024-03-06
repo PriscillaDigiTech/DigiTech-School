@@ -20,6 +20,7 @@ header {
 
       img {
         width: 100%;
+        filter: drop-shadow(1px 1px 1px $blackShadow);
         transition: 0.2s;
 
         @media screen and (max-width: 770px) {
@@ -29,19 +30,7 @@ header {
 
         &:hover {
           transform: scale(1.05);
-          filter: drop-shadow(1px 1px 1px $blackShadow);
         }
-      }
-
-      h1 {
-        text-transform: uppercase;
-        font-size: 1.3rem;
-        margin-bottom: 10px;
-      }
-
-      p {
-        color: $white1;
-        margin-bottom: 20px;
       }
     }
 
@@ -98,7 +87,6 @@ header {
           text-align: center;
           transition: 0.2s;
           cursor: pointer;
-          // text-transform: uppercase;
           color: $black1;
 
           @media screen and (max-width: 770px) {
@@ -177,7 +165,6 @@ header {
               ul {
                 display: block;
                 text-align: left;
-                text-transform: none;
                 margin: 10px 0;
                 background: $white1;
                 color: $bg;
