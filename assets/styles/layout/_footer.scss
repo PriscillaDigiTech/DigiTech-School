@@ -16,11 +16,11 @@ footer {
 
         img {
           width: 100%;
-          margin: 0 auto 20px;
+          margin: 0 auto;
           transition: 0.2s;
-          filter: drop-shadow(1px 1px 1px $whiteShadow);
+          filter: drop-shadow(1px 1px 1px $blackShadow);
 
-          @media screen and (max-width: 770px) {
+          @media screen and (max-width: 950px) {
             width: 50%;
             margin: 0 auto;
           }
@@ -28,14 +28,6 @@ footer {
           &:hover {
             transform: scale(1.05);
           }
-        }
-
-        h2 {
-          padding-bottom: 10px;
-        }
-
-        p {
-          color: $white1;
         }
 
         h4 {

@@ -150,7 +150,6 @@ header nav .menuNav .NavListLi .liNav {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   cursor: pointer;
-  color: #070604;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi .liNav {
@@ -175,10 +174,9 @@ header nav .menuNav .NavListLi .liNav:hover {
     -webkit-box-shadow: none;
             box-shadow: none;
     background: #e6b459;
-    color: #fff;
   }
   header nav .menuNav .NavListLi .liNav:hover a {
-    color: #070604;
+    color: #fff;
   }
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav,
@@ -257,6 +255,44 @@ header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul {
   width: 200px;
 }
+header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuAbout .menuClubsNav ul li,
+header nav .menuNav .NavListLi #menuAbout .menuEventsNav ul li,
+header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuServices .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuServices .menuClubsNav ul li,
+header nav .menuNav .NavListLi #menuServices .menuEventsNav ul li,
+header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuClubsNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuEventsNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuClubs .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuClubs .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuClubs .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuClubs .menuClubsNav ul li,
+header nav .menuNav .NavListLi #menuClubs .menuEventsNav ul li,
+header nav .menuNav .NavListLi #menuClubs .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuEvents .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuEvents .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuEvents .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuEvents .menuClubsNav ul li,
+header nav .menuNav .NavListLi #menuEvents .menuEventsNav ul li,
+header nav .menuNav .NavListLi #menuEvents .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li {
+  position: relative;
+}
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li a,
 header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li a,
 header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li a,
@@ -293,7 +329,7 @@ header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
-  color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  color: #070604;
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li:hover a,
 header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li:hover a,
@@ -332,6 +368,48 @@ header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li:hover a,
 header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li:hover a,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li:hover a {
   color: #fff;
+}
+header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuAbout .menuClubsNav ul li i,
+header nav .menuNav .NavListLi #menuAbout .menuEventsNav ul li i,
+header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li i,
+header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuServices .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuServices .menuClubsNav ul li i,
+header nav .menuNav .NavListLi #menuServices .menuEventsNav ul li i,
+header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuClubsNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuEventsNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li i,
+header nav .menuNav .NavListLi #menuClubs .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuClubs .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuClubs .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuClubs .menuClubsNav ul li i,
+header nav .menuNav .NavListLi #menuClubs .menuEventsNav ul li i,
+header nav .menuNav .NavListLi #menuClubs .menuRessourcesNav ul li i,
+header nav .menuNav .NavListLi #menuEvents .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuEvents .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuEvents .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuEvents .menuClubsNav ul li i,
+header nav .menuNav .NavListLi #menuEvents .menuEventsNav ul li i,
+header nav .menuNav .NavListLi #menuEvents .menuRessourcesNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuClubsNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 header nav .menuNav .NavListLi #menuAbout:hover,
 header nav .menuNav .NavListLi #menuServices:hover,
@@ -423,7 +501,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   background: #fff;
   color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   list-style: none;
-  border-top: 2px solid #e6b459;
+  border-top: 2px solid #070604;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul,
@@ -644,13 +722,13 @@ footer .footerNiveau1 .container div {
 }
 footer .footerNiveau1 .container div img {
   width: 100%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
-          filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 950px) {
   footer .footerNiveau1 .container div img {
     width: 50%;
     margin: 0 auto;
@@ -659,12 +737,6 @@ footer .footerNiveau1 .container div img {
 footer .footerNiveau1 .container div img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-}
-footer .footerNiveau1 .container div h2 {
-  padding-bottom: 10px;
-}
-footer .footerNiveau1 .container div p {
-  color: #fff;
 }
 footer .footerNiveau1 .container div h4 {
   padding: 20px;
@@ -734,14 +806,9 @@ footer .footerNiveau2 .container p {
     margin-bottom: 30px;
   }
 }
-.accueil .container h2 {
-  padding-bottom: 10px;
+.accueil .container h1 {
+  padding-bottom: 30px;
   text-transform: uppercase;
-  color: #fee140;
-}
-.accueil .container h3 {
-  padding-bottom: 20px;
-  color: #e6b459;
 }
 .accueil .container p {
   padding-bottom: 20px;
@@ -773,8 +840,8 @@ footer .footerNiveau2 .container p {
   width: 100%;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
-          filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25));
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
 }
 @media screen and (max-width: 770px) {
   .about .container img {
