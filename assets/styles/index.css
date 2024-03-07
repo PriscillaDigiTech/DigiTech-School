@@ -620,7 +620,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   header nav .menuNav .NavListLi #menuRessources:hover .menuClubsNav ul,
   header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul,
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
-    width: 420px;
+    width: 100%;
     text-align: center;
     color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   }

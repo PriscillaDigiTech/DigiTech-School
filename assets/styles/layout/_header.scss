@@ -184,7 +184,7 @@ header {
                 list-style: none;
                 border-top: 2px solid $black1;
                 @media screen and (max-width: 770px) {
-                  width: 420px;
+                  width: 100%;
                   text-align: center;
                   color: $bg;
                 }
