@@ -29,6 +29,65 @@
   }
 }
 
+.programme {
+  background: $bg;
+  .container {
+    h2 {
+      padding-bottom: 20px;
+    }
+    .programme-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+
+      @media screen and (max-width: 770px) {
+        grid-template-columns: 1fr;
+      }
+      div {
+        background: $white1;
+        padding: 20px;
+        border: 1px solid $grey1;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px $blackShadow;
+      }
+    }
+  }
+}
+
+.services {
+  .container {
+    h2 {
+      padding-bottom: 50px;
+    }
+    .services-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+
+      @media screen and (max-width: 770px) {
+        grid-template-columns: 1fr;
+      }
+
+      div {
+        background: $bg;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid $grey1;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px $blackShadow;
+
+        img {
+          width: 100%;
+          margin: 0 auto 20px;
+        }
+      }
+    }
+  }
+}
+
 .about {
   background: $bg;
 
@@ -62,26 +121,36 @@
   }
 }
 
-.services {
+.actus {
   .container {
     h2 {
-      padding-bottom: 50px;
+      padding-bottom: 30px;
     }
-    .services-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 20px;
 
-      div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        padding: 20px;
-        border: 1px solid $grey1;
-        border-radius: 20px;
-        box-shadow: 1px 1px 1px $blackShadow;
-      }
+    p {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.contact {
+  background: url(../img/12.png) center/cover;
+  padding: 100px;
+
+  @media screen and (max-width: 770px) {
+    padding: 100px 50px;
+  }
+
+  .container {
+    background: $bg;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px $blackShadow;
+    h2 {
+      padding-bottom: 30px;
+    }
+
+    p {
+      padding-bottom: 20px;
     }
   }
 }

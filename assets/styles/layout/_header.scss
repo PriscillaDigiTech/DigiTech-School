@@ -105,7 +105,7 @@ header {
             @media screen and (max-width: 770px) {
               transform: none;
               box-shadow: none;
-              background: $color1;
+              background: $bg;
 
               a {
                 color: $white1;
@@ -130,8 +130,14 @@ header {
 
             ul {
               width: 200px;
+
+              @media screen and (max-width: 770px) {
+                width: 100%;
+              }
+
               li {
                 position: relative;
+
                 a {
                   color: $black1;
                 }
@@ -147,6 +153,10 @@ header {
                   top: 50%;
                   right: 20px;
                   transform: translateY(-50%);
+
+                  @media screen and (max-width: 770px) {
+                    display: none;
+                  }
                 }
               }
             }
@@ -164,6 +174,7 @@ header {
             .menuRessourcesNav {
               display: block;
               position: absolute;
+
               ul {
                 display: block;
                 text-align: left;
@@ -175,7 +186,7 @@ header {
                 @media screen and (max-width: 770px) {
                   width: 420px;
                   text-align: center;
-                  color: $color1;
+                  color: $bg;
                 }
 
                 li {
@@ -186,7 +197,7 @@ header {
 
                   &:hover {
                     color: $white1;
-                    background: $color1;
+                    background: $bg;
                     transform: none;
                   }
                 }
@@ -229,15 +240,19 @@ header {
               position: absolute;
               top: -12px;
               left: 170px;
+
+              @media screen and (max-width: 770px) {
+                display: none;
+              }
               ul {
                 display: block;
                 text-align: left;
                 text-transform: none;
                 margin: 10px 0;
                 background: $white1;
-                color: $bg;
+                color: $color1;
                 list-style: none;
-                border-top: 2px solid $color1;
+                border-top: 2px solid $bg;
                 @media screen and (max-width: 770px) {
                   width: 420px;
                   text-align: center;
@@ -255,7 +270,7 @@ header {
                   }
 
                   &:hover {
-                    background: $color1;
+                    background: $bg;
                     transform: none;
 
                     a {
