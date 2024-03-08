@@ -399,7 +399,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:ho
           transform: none;
 }
 header nav .menuNav .NavListLi #menuServices .menuServicesNav ul {
-  width: 170px;
+  width: 190px;
 }
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul {
   width: 250px;
@@ -418,7 +418,7 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   display: block;
   position: absolute;
   top: -12px;
-  left: 170px;
+  left: 190px;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav {
@@ -629,7 +629,7 @@ footer .footerNiveau2 .container p a:hover {
 }
 .services .container .services-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 @media screen and (max-width: 770px) {
