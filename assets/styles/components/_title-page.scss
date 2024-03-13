@@ -1,15 +1,11 @@
 .title-page {
   background: $bg;
   width: 85%;
-  margin: 50px auto;
+  margin: 50px auto 0;
   border-radius: 20px;
   box-shadow: 0 0 5px $blackShadow;
 
   .container {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    align-items: center;
-
     @media screen and (max-width: 770px) {
       grid-template-columns: 1fr;
     }
@@ -18,19 +14,7 @@
     }
 
     p {
-      padding-bottom: 20px;
       color: $white1;
-    }
-
-    img {
-      width: 100%;
-      transition: 0.2s;
-      filter: drop-shadow(1px 1px 1px $blackShadow);
-
-      @media screen and (max-width: 770px) {
-        width: 50%;
-        margin: 0 auto;
-      }
     }
   }
 }

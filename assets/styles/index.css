@@ -71,17 +71,10 @@ button:hover a {
 .title-page {
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   width: 85%;
-  margin: 50px auto;
+  margin: 50px auto 0;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-}
-.title-page .container {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 @media screen and (max-width: 770px) {
   .title-page .container {
@@ -92,21 +85,7 @@ button:hover a {
   padding-bottom: 30px;
 }
 .title-page .container p {
-  padding-bottom: 20px;
   color: #fff;
-}
-.title-page .container img {
-  width: 100%;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
-          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
-}
-@media screen and (max-width: 770px) {
-  .title-page .container img {
-    width: 50%;
-    margin: 0 auto;
-  }
 }
 
 header {
@@ -772,4 +751,33 @@ footer .footerNiveau2 .container p a:hover {
 }
 #accueil .actus .container p {
   padding-bottom: 20px;
+}
+
+#a-propos .container img {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 350px;
+}
+#a-propos .container .mission {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#a-propos .container .mission div {
+  padding: 20px;
+}
+#a-propos .container .approche {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#a-propos .container .approche div {
+  padding: 20px;
 }/*# sourceMappingURL=index.css.map */
