@@ -48,7 +48,6 @@ button {
   border: 2px solid #070604;
   border-radius: 150px;
   background: transparent;
-  color: #070604;
   font-size: 1rem;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
@@ -56,11 +55,17 @@ button {
   transition: 0.2s;
   cursor: pointer;
 }
+button a {
+  text-decoration: none;
+  color: #070604;
+}
 button:hover {
   background: #070604;
-  color: #fff;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+button:hover a {
+  color: #fff;
 }
 
 header {
