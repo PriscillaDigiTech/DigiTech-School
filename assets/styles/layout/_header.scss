@@ -167,9 +167,12 @@ header {
                     width: 83vw;
                   }
                   &:hover {
-                    color: $white1;
                     background: $bg;
                     transform: none;
+
+                    a {
+                      color: $black1;
+                    }
                   }
                 }
               }
@@ -177,29 +180,9 @@ header {
           }
         }
 
-        // #menuServices {
-        //   .menuServicesNav {
-        //     ul {
-        //       width: 190px;
-        //     }
-        //   }
-        // }
-
-        // #menuRessources {
-        //   .menuRessourcesNav {
-        //     ul {
-        //       width: 250px;
-        //     }
-        //   }
-        // }
-
         #menuFormations {
           .menuFormationsNav {
             display: none;
-
-            // ul {
-            //   width: 200px;
-            // }
           }
 
           &:hover {
@@ -221,13 +204,10 @@ header {
                 text-transform: none;
                 margin: 10px 0;
                 background: $white1;
-                color: $color1;
                 list-style: none;
                 border-top: 2px solid $bg;
                 @media screen and (max-width: 770px) {
-                  // width: 420px;
                   text-align: center;
-                  color: $color1;
                 }
 
                 li {
@@ -236,17 +216,9 @@ header {
                   border-bottom: 1px solid rgba(241, 241, 241, 0.8);
                   font-size: 0.8rem;
 
-                  a {
-                    color: $black1;
-                  }
-
                   &:hover {
                     background: $bg;
                     transform: none;
-
-                    a {
-                      color: $white1;
-                    }
                   }
                 }
               }

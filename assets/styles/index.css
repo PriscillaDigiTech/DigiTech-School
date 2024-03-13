@@ -418,10 +418,27 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover {
-  color: #fff;
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   -webkit-transform: none;
           transform: none;
+}
+header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout:hover .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices:hover .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents:hover .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents:hover .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents:hover .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuEvents:hover .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover a {
+  color: #070604;
 }
 header nav .menuNav .NavListLi #menuFormations .menuFormationsNav {
   display: none;
@@ -447,14 +464,12 @@ header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
   text-transform: none;
   margin: 10px 0;
   background: #fff;
-  color: #e6b459;
   list-style: none;
   border-top: 2px solid linear-gradient(45deg, #fa709a 0%, #fee140 100%);
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
     text-align: center;
-    color: #e6b459;
   }
 }
 header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li {
@@ -463,16 +478,10 @@ header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li {
   border-bottom: 1px solid rgba(241, 241, 241, 0.8);
   font-size: 0.8rem;
 }
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li a {
-  color: #070604;
-}
 header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:hover {
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   -webkit-transform: none;
           transform: none;
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:hover a {
-  color: #fff;
 }
 
 .contact {
