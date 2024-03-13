@@ -338,7 +338,6 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   list-style: none;
   border-top: 2px solid #070604;
-  width: 100%;
 }
 @media screen and (max-width: 770px) {
   header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul,
@@ -357,6 +356,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul,
   header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul,
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
+    width: 100%;
     text-align: center;
     color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   }

@@ -151,8 +151,8 @@ header {
                 color: $bg;
                 list-style: none;
                 border-top: 2px solid $black1;
-                width: 100%;
                 @media screen and (max-width: 770px) {
+                  width: 100%;
                   text-align: center;
                   color: $bg;
                 }
