@@ -8,6 +8,8 @@ button {
   font-size: 1rem;
   box-shadow: 0px 2px 1px $blackShadow;
   transition: 0.2s;
+  cursor: pointer;
+
   &:hover {
     background: $black1;
     color: $white1;

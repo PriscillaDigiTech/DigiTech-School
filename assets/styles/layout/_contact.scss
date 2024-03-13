@@ -1,0 +1,21 @@
+.contact {
+  background: url(../img/12.png) center/cover;
+  padding: 100px;
+
+  @media screen and (max-width: 770px) {
+    padding: 100px 50px;
+  }
+
+  .container {
+    background: $bg;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px $blackShadow;
+    h2 {
+      padding-bottom: 30px;
+    }
+
+    p {
+      padding-bottom: 20px;
+    }
+  }
+}

@@ -2,12 +2,6 @@
   font-family: "nunito";
   src: url(../fonts/Nunito-VariableFont_wght.ttf);
 }
-.container {
-  width: 85%;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +34,33 @@ h6 {
 a,
 a:visited {
   text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #070604;
+  border-radius: 150px;
+  background: transparent;
+  color: #070604;
+  font-size: 1rem;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  background: #070604;
+  color: #fff;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 header {
@@ -404,28 +425,28 @@ header nav .menuNav .NavListLi #menuServices .menuServicesNav ul {
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul {
   width: 250px;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants .menuFormationsEnfantsNav {
+header nav .menuNav .NavListLi #menuFormations .menuFormationsNav {
   display: none;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants .menuFormationsEnfantsNav ul {
+header nav .menuNav .NavListLi #menuFormations .menuFormationsNav ul {
   width: 200px;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover {
+header nav .menuNav .NavListLi #menuFormations:hover {
   display: block;
   position: relative;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav {
+header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav {
   display: block;
   position: absolute;
   top: -12px;
   left: 190px;
 }
 @media screen and (max-width: 770px) {
-  header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav {
+  header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav {
     display: none;
   }
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul {
+header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
   display: block;
   text-align: left;
   text-transform: none;
@@ -436,48 +457,50 @@ header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfan
   border-top: 2px solid linear-gradient(45deg, #fa709a 0%, #fee140 100%);
 }
 @media screen and (max-width: 770px) {
-  header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul {
+  header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
     width: 420px;
     text-align: center;
     color: #e6b459;
   }
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li {
+header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li {
   list-style: none;
   padding: 10px;
   border-bottom: 1px solid rgba(241, 241, 241, 0.8);
   font-size: 0.8rem;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li a {
+header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li a {
   color: #070604;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li:hover {
+header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:hover {
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   -webkit-transform: none;
           transform: none;
 }
-header nav .menuNav .NavListLi #menuFormationsEnfants:hover .menuFormationsEnfantsNav ul li:hover a {
+header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:hover a {
   color: #fff;
 }
 
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: 2px solid #070604;
-  border-radius: 150px;
-  background: transparent;
-  color: #070604;
-  font-size: 1rem;
-  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+.contact {
+  background: url(../img/12.png) center/cover;
+  padding: 100px;
 }
-button:hover {
-  background: #070604;
-  color: #fff;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+@media screen and (max-width: 770px) {
+  .contact {
+    padding: 100px 50px;
+  }
+}
+.contact .container {
+  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.contact .container h2 {
+  padding-bottom: 30px;
+}
+.contact .container p {
+  padding-bottom: 20px;
 }
 
 footer {
@@ -570,7 +593,7 @@ footer .footerNiveau2 .container p a:hover {
   color: #fff;
 }
 
-.accueil .container {
+#accueil .accueil .container {
   height: 80vh;
   background: url(../img/accueil.webp) no-repeat left/contain;
   display: grid;
@@ -580,42 +603,41 @@ footer .footerNiveau2 .container p a:hover {
           align-items: center;
 }
 @media screen and (max-width: 1100px) {
-  .accueil .container {
+  #accueil .accueil .container {
     grid-template-columns: 1fr;
     height: auto;
     background: none;
   }
-  .accueil .container #img-hero {
+  #accueil .accueil .container #img-hero {
     height: 60vh;
     background: url(../img/accueil.webp) no-repeat center/contain;
     margin-bottom: 30px;
   }
 }
-.accueil .container h1 {
+#accueil .accueil .container h1 {
   padding-bottom: 30px;
   text-transform: uppercase;
 }
-.accueil .container p {
+#accueil .accueil .container p {
   padding-bottom: 20px;
 }
-
-.programme {
+#accueil .programme {
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
 }
-.programme .container h2 {
+#accueil .programme .container h2 {
   padding-bottom: 20px;
 }
-.programme .container .programme-container {
+#accueil .programme .container .programme-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 @media screen and (max-width: 770px) {
-  .programme .container .programme-container {
+  #accueil .programme .container .programme-container {
     grid-template-columns: 1fr;
   }
 }
-.programme .container .programme-container div {
+#accueil .programme .container .programme-container div {
   background: #fff;
   padding: 20px;
   border: 1px solid #dfdfdf;
@@ -623,21 +645,23 @@ footer .footerNiveau2 .container p a:hover {
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
-
-.services .container h2 {
+#accueil .services .container h2 {
   padding-bottom: 50px;
 }
-.services .container .services-container {
+#accueil .services .container .services-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 @media screen and (max-width: 770px) {
-  .services .container .services-container {
+  #accueil .services .container .services-container {
     grid-template-columns: 1fr;
   }
 }
-.services .container .services-container div {
+#accueil .services .container .services-container a {
+  text-decoration: none;
+}
+#accueil .services .container .services-container a div {
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
   display: grid;
   grid-template-columns: 1fr;
@@ -652,16 +676,21 @@ footer .footerNiveau2 .container p a:hover {
   border-radius: 20px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
-.services .container .services-container div img {
+#accueil .services .container .services-container a div img {
   width: 100%;
   margin: 0 auto 20px;
 }
-
-.about {
+#accueil .services .container .services-container a div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+#accueil .about {
   background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
 }
-.about .container {
+#accueil .about .container {
   display: grid;
   grid-template-columns: 30% 70%;
   -webkit-box-align: center;
@@ -669,18 +698,18 @@ footer .footerNiveau2 .container p a:hover {
           align-items: center;
 }
 @media screen and (max-width: 770px) {
-  .about .container {
+  #accueil .about .container {
     grid-template-columns: 1fr;
   }
 }
-.about .container h2 {
+#accueil .about .container h2 {
   padding-bottom: 30px;
 }
-.about .container p {
+#accueil .about .container p {
   padding-bottom: 20px;
   color: #fff;
 }
-.about .container img {
+#accueil .about .container img {
   width: 100%;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -688,37 +717,14 @@ footer .footerNiveau2 .container p a:hover {
           filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
 }
 @media screen and (max-width: 770px) {
-  .about .container img {
+  #accueil .about .container img {
     width: 50%;
     margin: 0 auto;
   }
 }
-
-.actus .container h2 {
+#accueil .actus .container h2 {
   padding-bottom: 30px;
 }
-.actus .container p {
-  padding-bottom: 20px;
-}
-
-.contact {
-  background: url(../img/12.png) center/cover;
-  padding: 100px;
-}
-@media screen and (max-width: 770px) {
-  .contact {
-    padding: 100px 50px;
-  }
-}
-.contact .container {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
-  border-radius: 20px;
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-}
-.contact .container h2 {
-  padding-bottom: 30px;
-}
-.contact .container p {
+#accueil .actus .container p {
   padding-bottom: 20px;
 }/*# sourceMappingURL=index.css.map */
