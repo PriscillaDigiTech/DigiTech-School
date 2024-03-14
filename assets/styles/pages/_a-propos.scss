@@ -1,11 +1,16 @@
 #a-propos {
   .container {
+    h2 {
+      padding-bottom: 30px;
+    }
+
     img {
       width: 100%;
       box-shadow: 0px 0px 5px $blackShadow;
       border-radius: 350px;
     }
-    .mission {
+    .mission,
+    .equipe-container {
       display: grid;
       grid-template-columns: 30% 70%;
       gap: 20px;
@@ -24,6 +29,59 @@
 
       div {
         padding: 20px;
+      }
+    }
+
+    .equipe {
+      background: $bg;
+      box-shadow: 0px 0px 5px $blackShadow;
+      border-radius: 20px;
+      padding: 50px;
+      margin: 50px auto;
+    }
+
+    .valeurs {
+      padding: 50px 0;
+
+      h2 {
+        padding-bottom: 50px;
+      }
+
+      div {
+        // width: 85%;
+        // margin: 0 auto;
+
+        ul {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 30px;
+          justify-content: space-between;
+
+          @media screen and (max-width: 730px) {
+            grid-template-columns: 1fr;
+          }
+          li {
+            list-style: none;
+            padding: 50px;
+            box-shadow: 0 0 5px $blackShadow;
+            border-radius: 20px;
+            height: 100%;
+            background: $bg;
+
+            i {
+              display: block;
+              padding-bottom: 30px;
+              font-size: 2rem;
+              color: $white1;
+            }
+
+            strong {
+              text-transform: uppercase;
+              color: $white1;
+              font-size: 1.1rem;
+            }
+          }
+        }
       }
     }
   }

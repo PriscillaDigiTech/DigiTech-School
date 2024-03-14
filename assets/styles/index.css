@@ -83,6 +83,7 @@ button:hover a {
 }
 .title-page .container h1 {
   padding-bottom: 30px;
+  text-transform: uppercase;
 }
 .title-page .container p {
   color: #fff;
@@ -753,13 +754,17 @@ footer .footerNiveau2 .container p a:hover {
   padding-bottom: 20px;
 }
 
+#a-propos .container h2 {
+  padding-bottom: 30px;
+}
 #a-propos .container img {
   width: 100%;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
   border-radius: 350px;
 }
-#a-propos .container .mission {
+#a-propos .container .mission,
+#a-propos .container .equipe-container {
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 20px;
@@ -767,7 +772,8 @@ footer .footerNiveau2 .container p a:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-#a-propos .container .mission div {
+#a-propos .container .mission div,
+#a-propos .container .equipe-container div {
   padding: 20px;
 }
 #a-propos .container .approche {
@@ -780,4 +786,51 @@ footer .footerNiveau2 .container p a:hover {
 }
 #a-propos .container .approche div {
   padding: 20px;
+}
+#a-propos .container .equipe {
+  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 50px;
+  margin: 50px auto;
+}
+#a-propos .container .valeurs {
+  padding: 50px 0;
+}
+#a-propos .container .valeurs h2 {
+  padding-bottom: 50px;
+}
+#a-propos .container .valeurs div ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 730px) {
+  #a-propos .container .valeurs div ul {
+    grid-template-columns: 1fr;
+  }
+}
+#a-propos .container .valeurs div ul li {
+  list-style: none;
+  padding: 50px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 100%;
+  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+}
+#a-propos .container .valeurs div ul li i {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 2rem;
+  color: #fff;
+}
+#a-propos .container .valeurs div ul li strong {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.1rem;
 }/*# sourceMappingURL=index.css.map */
