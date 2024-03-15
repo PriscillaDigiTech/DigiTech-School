@@ -118,6 +118,10 @@ header {
               li {
                 position: relative;
 
+                a {
+                  display: flex;
+                }
+
                 i {
                   position: absolute;
                   top: 50%;
@@ -171,54 +175,8 @@ header {
                     transform: none;
 
                     a {
-                      color: $black1;
+                      color: $white1;
                     }
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        #menuFormations {
-          .menuFormationsNav {
-            display: none;
-          }
-
-          &:hover {
-            display: block;
-            position: relative;
-
-            .menuFormationsNav {
-              display: block;
-              position: absolute;
-              top: -12px;
-              left: 200px;
-
-              @media screen and (max-width: 770px) {
-                display: none;
-              }
-              ul {
-                display: block;
-                text-align: left;
-                text-transform: none;
-                margin: 10px 0;
-                background: $white1;
-                list-style: none;
-                border-top: 2px solid $bg;
-                @media screen and (max-width: 770px) {
-                  text-align: center;
-                }
-
-                li {
-                  list-style: none;
-                  padding: 10px;
-                  border-bottom: 1px solid rgba(241, 241, 241, 0.8);
-                  font-size: 0.8rem;
-
-                  &:hover {
-                    background: $bg;
-                    transform: none;
                   }
                 }
               }

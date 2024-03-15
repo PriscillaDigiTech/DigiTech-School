@@ -62,10 +62,13 @@
       }
       .services-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
 
-        @media screen and (max-width: 770px) {
+        @media screen and (max-width: 905px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (max-width: 520px) {
           grid-template-columns: 1fr;
         }
         a {

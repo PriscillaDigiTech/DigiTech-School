@@ -1,0 +1,45 @@
+#services {
+  .services {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+
+      @media screen and (max-width: 690px) {
+        grid-template-columns: 1fr;
+      }
+
+      a {
+        text-decoration: none;
+        color: $text;
+        box-shadow: 0 0 5px $blackShadow;
+        padding: 30px;
+        border-radius: 20px;
+        transition: 0.2s;
+
+        h2 {
+          color: $color1;
+        }
+
+        &:hover {
+          background: $bg;
+
+          h2 {
+            color: $white1;
+          }
+        }
+
+        .services-container {
+          img {
+            width: 30%;
+            padding-bottom: 30px;
+          }
+
+          h2 {
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}

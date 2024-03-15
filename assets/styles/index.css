@@ -268,6 +268,26 @@ header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li {
   position: relative;
 }
+header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuEvents .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li i,
 header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li i,
 header nav .menuNav .NavListLi #menuAbout .menuEventsNav ul li i,
@@ -459,50 +479,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover a
 header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover a,
 header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul li:hover a,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover a {
-  color: #070604;
-}
-header nav .menuNav .NavListLi #menuFormations .menuFormationsNav {
-  display: none;
-}
-header nav .menuNav .NavListLi #menuFormations:hover {
-  display: block;
-  position: relative;
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav {
-  display: block;
-  position: absolute;
-  top: -12px;
-  left: 200px;
-}
-@media screen and (max-width: 770px) {
-  header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav {
-    display: none;
-  }
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
-  display: block;
-  text-align: left;
-  text-transform: none;
-  margin: 10px 0;
-  background: #fff;
-  list-style: none;
-  border-top: 2px solid linear-gradient(45deg, #fa709a 0%, #fee140 100%);
-}
-@media screen and (max-width: 770px) {
-  header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
-    text-align: center;
-  }
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li {
-  list-style: none;
-  padding: 10px;
-  border-bottom: 1px solid rgba(241, 241, 241, 0.8);
-  font-size: 0.8rem;
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:hover {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
-  -webkit-transform: none;
-          transform: none;
+  color: #fff;
 }
 
 .contact {
@@ -675,10 +652,15 @@ footer .footerNiveau2 .container p a:hover {
 }
 #accueil .services .container .services-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 905px) {
+  #accueil .services .container .services-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 520px) {
   #accueil .services .container .services-container {
     grid-template-columns: 1fr;
   }
@@ -833,4 +815,41 @@ footer .footerNiveau2 .container p a:hover {
   text-transform: uppercase;
   color: #fff;
   font-size: 1.1rem;
+}
+
+#services .services .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+@media screen and (max-width: 690px) {
+  #services .services .container {
+    grid-template-columns: 1fr;
+  }
+}
+#services .services .container a {
+  text-decoration: none;
+  color: #333;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  border-radius: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#services .services .container a h2 {
+  color: #e6b459;
+}
+#services .services .container a:hover {
+  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+}
+#services .services .container a:hover h2 {
+  color: #fff;
+}
+#services .services .container a .services-container img {
+  width: 30%;
+  padding-bottom: 30px;
+}
+#services .services .container a .services-container h2 {
+  padding-bottom: 30px;
 }/*# sourceMappingURL=index.css.map */
