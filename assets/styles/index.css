@@ -852,4 +852,45 @@ footer .footerNiveau2 .container p a:hover {
 }
 #services .services .container a .services-container h2 {
   padding-bottom: 30px;
+}
+
+#ressources .ressources .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+@media screen and (max-width: 1080px) {
+  #ressources .ressources .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 790px) {
+  #ressources .ressources .container {
+    grid-template-columns: 1fr;
+  }
+}
+#ressources .ressources .container a {
+  text-decoration: none;
+  color: #333;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  border-radius: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#ressources .ressources .container a i,
+#ressources .ressources .container a h2 {
+  color: #e6b459;
+  padding-bottom: 30px;
+}
+#ressources .ressources .container a:hover {
+  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+}
+#ressources .ressources .container a:hover i,
+#ressources .ressources .container a:hover h2 {
+  color: #fff;
+}
+#ressources .ressources .container a .ressources-container i {
+  font-size: 4rem;
 }/*# sourceMappingURL=index.css.map */
