@@ -1,5 +1,5 @@
 // windowLoad
-let windowHeightMin = window.innerWidth <= 760;
+let windowHeightMin = window.innerWidth <= 1090;
 
 function windowLoad() {
   windowHeightMin === true
