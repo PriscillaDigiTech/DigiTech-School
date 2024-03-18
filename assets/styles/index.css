@@ -40,6 +40,7 @@ a:visited {
   width: 85%;
   margin: 0 auto;
   padding: 50px 0;
+  text-align: center;
 }
 
 button {
@@ -69,7 +70,7 @@ button:hover a {
 }
 
 .title-page {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   width: 85%;
   margin: 50px auto 0;
   border-radius: 20px;
@@ -90,7 +91,7 @@ button:hover a {
 }
 
 header {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 header nav {
   width: 85%;
@@ -115,9 +116,9 @@ header nav a {
   margin: 0 auto;
 }
 header nav a img {
-  width: 100%;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
-          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+  width: 80%;
+  -webkit-filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.25));
+          filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.25));
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -129,11 +130,13 @@ header nav a img {
 header nav a img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.25));
+          filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.25));
 }
 header nav .menu-icons {
   display: none;
   text-align: right;
-  color: #070604;
+  color: #fff;
 }
 @media screen and (max-width: 770px) {
   header nav .menu-icons {
@@ -203,6 +206,7 @@ header nav .menuNav .NavListLi .liNav {
 }
 header nav .menuNav .NavListLi .liNav a {
   color: #070604;
+  text-transform: uppercase;
 }
 header nav .menuNav .NavListLi .liNav:hover {
   -webkit-transform: scale(1.2);
@@ -284,6 +288,8 @@ header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuEventsNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
+  color: #070604;
+  text-transform: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,7 +382,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   text-align: left;
   margin: 10px 0;
   background: #fff;
-  color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  color: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   list-style: none;
   border-top: 2px solid #070604;
 }
@@ -399,7 +405,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
     width: 100%;
     text-align: center;
-    color: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+    color: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   }
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li,
@@ -459,7 +465,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuEventsNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   -webkit-transform: none;
           transform: none;
 }
@@ -492,7 +498,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:ho
   }
 }
 .contact .container {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   border-radius: 20px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -506,7 +512,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:ho
 }
 
 footer {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 footer .footerNiveau1 .container {
   display: grid;
@@ -624,7 +630,7 @@ footer .footerNiveau2 .container p a:hover {
   padding-bottom: 20px;
 }
 #accueil .programme {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 #accueil .programme .container h2 {
   padding-bottom: 20px;
@@ -669,7 +675,7 @@ footer .footerNiveau2 .container p a:hover {
   text-decoration: none;
 }
 #accueil .services .container .services-container a div {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   display: grid;
   grid-template-columns: 1fr;
   -webkit-box-pack: center;
@@ -695,7 +701,7 @@ footer .footerNiveau2 .container p a:hover {
           transform: scale(1.05);
 }
 #accueil .about {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 #accueil .about .container {
   display: grid;
@@ -770,7 +776,7 @@ footer .footerNiveau2 .container p a:hover {
   padding: 20px;
 }
 #a-propos .container .equipe {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -803,7 +809,7 @@ footer .footerNiveau2 .container p a:hover {
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   height: 100%;
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 #a-propos .container .valeurs div ul li i {
   display: block;
@@ -841,7 +847,7 @@ footer .footerNiveau2 .container p a:hover {
   color: #e6b459;
 }
 #services .services .container a:hover {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 #services .services .container a:hover h2 {
   color: #fff;
@@ -885,7 +891,7 @@ footer .footerNiveau2 .container p a:hover {
   padding-bottom: 30px;
 }
 #ressources .ressources .container a:hover {
-  background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
 }
 #ressources .ressources .container a:hover i,
 #ressources .ressources .container a:hover h2 {

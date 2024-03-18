@@ -13,15 +13,14 @@ $font1: nunito, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 $color1: #e6b459;
 $color2: #766240;
 $color3: #231b0d;
-$color4: #fee140;
-$color5: #fa709a;
+$color4: #fbc2eb;
+$color5: #a6c1ee;
 $black1: #070604;
 $white1: #fff;
 $text: #333;
 $grey1: #dfdfdf;
-// $bg: linear-gradient(180deg, $color4, $color1);
-// $bg: linear-gradient(90deg, #0250c5 0%, #d43f8d 100%);
-$bg: linear-gradient(45deg, $color5 0%, $color4 100%);
+
+$bg: linear-gradient(45deg, $color4 0%, $color5 100%);
 $blackShadow: rgba(0, 0, 0, 0.25);
 $whiteShadow: rgba(255, 255, 255, 0.25);
 
@@ -61,4 +60,5 @@ a:visited {
   width: 85%;
   margin: 0 auto;
   padding: 50px 0;
+  text-align: center;
 }

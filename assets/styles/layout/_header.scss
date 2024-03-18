@@ -18,8 +18,8 @@ header {
       margin: 0 auto;
 
       img {
-        width: 100%;
-        filter: drop-shadow(1px 1px 1px $blackShadow);
+        width: 80%;
+        filter: drop-shadow(0 0 5px $whiteShadow);
         transition: 0.2s;
 
         @media screen and (max-width: 770px) {
@@ -28,6 +28,7 @@ header {
 
         &:hover {
           transform: scale(1.05);
+          filter: drop-shadow(0 0 10px $whiteShadow);
         }
       }
     }
@@ -35,7 +36,7 @@ header {
     .menu-icons {
       display: none;
       text-align: right;
-      color: $black1;
+      color: $white1;
 
       @media screen and (max-width: 770px) {
         display: block;
@@ -92,6 +93,7 @@ header {
 
           a {
             color: $black1;
+            text-transform: uppercase;
           }
 
           &:hover {
@@ -119,6 +121,8 @@ header {
                 position: relative;
 
                 a {
+                  color: $black1;
+                  text-transform: none;
                   display: flex;
                 }
 
