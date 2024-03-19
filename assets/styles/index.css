@@ -735,41 +735,33 @@ footer .footerNiveau2 .container p a:hover {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
-#services .services .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-@media screen and (max-width: 690px) {
-  #services .services .container {
-    grid-template-columns: 1fr;
-  }
-}
-#services .services .container a {
-  text-decoration: none;
-  color: #333;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-  padding: 30px;
-  border-radius: 20px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-#services .services .container a h2 {
-  color: #834cf8;
-}
-#services .services .container a:hover {
+#programmes .programmes .container h2 {
+  padding-bottom: 30px;
   background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-#services .services .container a:hover h2 {
-  color: #fff;
-}
-#services .services .container a .services-container img {
-  width: 30%;
+#programmes .programmes .container img {
+  width: 100%;
   padding-bottom: 30px;
 }
-#services .services .container a .services-container h2 {
-  padding-bottom: 30px;
+#programmes .programmes .container .services-container {
+  margin: 20px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#programmes .programmes .container .services-container div {
+  padding: 20px;
+}
+#programmes .programmes .container .left {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+#programmes .programmes .container .right {
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
 #ressources .ressources .container {

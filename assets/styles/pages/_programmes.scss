@@ -1,0 +1,36 @@
+#programmes {
+  .programmes {
+    .container {
+      h2 {
+        padding-bottom: 30px;
+        background: $bg;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      img {
+        width: 100%;
+        padding-bottom: 30px;
+      }
+
+      .services-container {
+        margin: 20px auto;
+        align-items: center;
+
+        div {
+          padding: 20px;
+        }
+      }
+
+      .left {
+        display: grid;
+        grid-template-columns: 30% 70%;
+      }
+
+      .right {
+        display: grid;
+        grid-template-columns: 70% 30%;
+      }
+    }
+  }
+}
