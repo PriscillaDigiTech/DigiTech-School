@@ -173,7 +173,7 @@ header {
                   font-size: 0.8rem;
 
                   @media screen and (max-width: 1090px) {
-                    width: 83vw;
+                    width: 87.5vw;
                   }
 
                   &:hover {
@@ -183,52 +183,6 @@ header {
                     a {
                       color: $black1;
                     }
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        #menuFormations {
-          .menuFormationsNav {
-            display: none;
-          }
-
-          &:hover {
-            display: block;
-            position: relative;
-
-            .menuFormationsNav {
-              display: block;
-              position: absolute;
-              top: -12px;
-              left: 200px;
-
-              @media screen and (max-width: 1090px) {
-                display: none;
-              }
-              ul {
-                display: block;
-                text-align: left;
-                text-transform: none;
-                margin: 10px 0;
-                background: $white1;
-                list-style: none;
-                border-top: 2px solid $bg;
-                @media screen and (max-width: 1090px) {
-                  text-align: center;
-                }
-
-                li {
-                  list-style: none;
-                  padding: 10px;
-                  border-bottom: 1px solid rgba(241, 241, 241, 0.8);
-                  font-size: 0.8rem;
-
-                  &:hover {
-                    background: $bg;
-                    transform: none;
                   }
                 }
               }

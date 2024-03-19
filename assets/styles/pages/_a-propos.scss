@@ -38,6 +38,10 @@
       border-radius: 20px;
       padding: 50px;
       margin: 50px auto;
+
+      div {
+        padding: 0;
+      }
     }
 
     .valeurs {
@@ -73,12 +77,14 @@
               padding-bottom: 30px;
               font-size: 2rem;
               color: $white1;
+              text-shadow: 0 0 5px $blackShadow;
             }
 
             strong {
               text-transform: uppercase;
               color: $white1;
               font-size: 1.1rem;
+              text-shadow: 0 0 5px $blackShadow;
             }
           }
         }

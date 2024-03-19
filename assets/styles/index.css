@@ -70,7 +70,7 @@ button:hover a {
 }
 
 .title-page {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   width: 85%;
   margin: 50px auto 0;
   border-radius: 20px;
@@ -87,11 +87,11 @@ button:hover a {
   text-transform: uppercase;
 }
 .title-page .container p {
-  color: #fff;
+  color: #333;
 }
 
 header {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 header nav {
   width: 90%;
@@ -324,7 +324,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   text-align: left;
   margin: 10px 0;
   background: #fff;
-  color: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  color: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   list-style: none;
   border-top: 2px solid #070604;
 }
@@ -340,7 +340,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
     width: 100%;
     text-align: center;
-    color: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   }
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li,
@@ -367,7 +367,7 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li {
   header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li,
   header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li,
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li {
-    width: 83vw;
+    width: 87.5vw;
   }
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li:hover,
@@ -379,7 +379,7 @@ header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul li:hove
 header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   -webkit-transform: none;
           transform: none;
 }
@@ -394,49 +394,6 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hove
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover a {
   color: #070604;
 }
-header nav .menuNav .NavListLi #menuFormations .menuFormationsNav {
-  display: none;
-}
-header nav .menuNav .NavListLi #menuFormations:hover {
-  display: block;
-  position: relative;
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav {
-  display: block;
-  position: absolute;
-  top: -12px;
-  left: 200px;
-}
-@media screen and (max-width: 1090px) {
-  header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav {
-    display: none;
-  }
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
-  display: block;
-  text-align: left;
-  text-transform: none;
-  margin: 10px 0;
-  background: #fff;
-  list-style: none;
-  border-top: 2px solid linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
-}
-@media screen and (max-width: 1090px) {
-  header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul {
-    text-align: center;
-  }
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li {
-  list-style: none;
-  padding: 10px;
-  border-bottom: 1px solid rgba(241, 241, 241, 0.8);
-  font-size: 0.8rem;
-}
-header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:hover {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
-  -webkit-transform: none;
-          transform: none;
-}
 
 .contact {
   background: url(../img/12.png) center/cover;
@@ -448,7 +405,7 @@ header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:ho
   }
 }
 .contact .container {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   border-radius: 20px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -462,7 +419,7 @@ header nav .menuNav .NavListLi #menuFormations:hover .menuFormationsNav ul li:ho
 }
 
 footer {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 footer .footerNiveau1 .container {
   display: grid;
@@ -580,14 +537,14 @@ footer .footerNiveau2 .container p a:hover {
   padding-bottom: 20px;
 }
 #accueil .programme {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 #accueil .programme .container h2 {
   padding-bottom: 20px;
 }
 #accueil .programme .container .programme-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 @media screen and (max-width: 770px) {
@@ -608,7 +565,7 @@ footer .footerNiveau2 .container p a:hover {
 }
 #accueil .services .container .services-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 @media screen and (max-width: 905px) {
@@ -625,7 +582,7 @@ footer .footerNiveau2 .container p a:hover {
   text-decoration: none;
 }
 #accueil .services .container .services-container a div {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   display: grid;
   grid-template-columns: 1fr;
   -webkit-box-pack: center;
@@ -651,7 +608,7 @@ footer .footerNiveau2 .container p a:hover {
           transform: scale(1.05);
 }
 #accueil .about {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 #accueil .about .container {
   display: grid;
@@ -726,12 +683,15 @@ footer .footerNiveau2 .container p a:hover {
   padding: 20px;
 }
 #a-propos .container .equipe {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   padding: 50px;
   margin: 50px auto;
+}
+#a-propos .container .equipe div {
+  padding: 0;
 }
 #a-propos .container .valeurs {
   padding: 50px 0;
@@ -759,18 +719,20 @@ footer .footerNiveau2 .container p a:hover {
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   height: 100%;
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 #a-propos .container .valeurs div ul li i {
   display: block;
   padding-bottom: 30px;
   font-size: 2rem;
   color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 #a-propos .container .valeurs div ul li strong {
   text-transform: uppercase;
   color: #fff;
   font-size: 1.1rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 #services .services .container {
@@ -797,7 +759,7 @@ footer .footerNiveau2 .container p a:hover {
   color: #834cf8;
 }
 #services .services .container a:hover {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 #services .services .container a:hover h2 {
   color: #fff;
@@ -841,7 +803,7 @@ footer .footerNiveau2 .container p a:hover {
   padding-bottom: 30px;
 }
 #ressources .ressources .container a:hover {
-  background: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
 }
 #ressources .ressources .container a:hover i,
 #ressources .ressources .container a:hover h2 {
