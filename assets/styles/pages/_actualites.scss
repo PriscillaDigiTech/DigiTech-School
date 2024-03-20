@@ -1,0 +1,51 @@
+#actualites {
+  .actualites {
+    .container {
+      .intro {
+        p {
+          padding-bottom: 50px;
+        }
+      }
+      .actualites-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        @media screen and (max-width: 1080px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (max-width: 790px) {
+          grid-template-columns: 1fr;
+        }
+
+        a {
+          text-decoration: none;
+          color: $text;
+          box-shadow: 0 0 5px $blackShadow;
+          padding: 30px;
+          border-radius: 20px;
+          transition: 0.3s;
+
+          h2 {
+            color: $black1;
+            padding-bottom: 30px;
+          }
+
+          &:hover {
+            background: $bg;
+            transform: scale(1.02);
+
+            h2 {
+              color: $white1;
+            }
+          }
+
+          .actualites-infos {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

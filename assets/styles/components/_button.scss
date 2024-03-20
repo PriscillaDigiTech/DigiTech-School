@@ -16,6 +16,7 @@ button {
   &:hover {
     background: $black1;
     transform: scale(1.05);
+    color: $white1;
 
     a {
       color: $white1;

@@ -47,6 +47,10 @@ a:visited {
   padding-bottom: 30px;
 }
 
+.conclusion {
+  padding-top: 30px;
+}
+
 button {
   margin-top: 20px;
   padding: 10px 20px;
@@ -68,6 +72,7 @@ button:hover {
   background: #070604;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  color: #fff;
 }
 button:hover a {
   color: #fff;
@@ -833,4 +838,116 @@ footer .footerNiveau2 .container p a:hover {
 }
 #ressources .ressources .container .ressources-container a .ressources-infos i {
   font-size: 4rem;
+}
+
+#actualites .actualites .container .intro p {
+  padding-bottom: 50px;
+}
+#actualites .actualites .container .actualites-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+@media screen and (max-width: 1080px) {
+  #actualites .actualites .container .actualites-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 790px) {
+  #actualites .actualites .container .actualites-container {
+    grid-template-columns: 1fr;
+  }
+}
+#actualites .actualites .container .actualites-container a {
+  text-decoration: none;
+  color: #333;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#actualites .actualites .container .actualites-container a h2 {
+  color: #070604;
+  padding-bottom: 30px;
+}
+#actualites .actualites .container .actualites-container a:hover {
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+#actualites .actualites .container .actualites-container a:hover h2 {
+  color: #fff;
+}
+#actualites .actualites .container .actualites-container a .actualites-infos img {
+  width: 100%;
+}
+
+#contact .contact-container .container .intro p {
+  padding-bottom: 50px;
+}
+#contact .contact-container .container .contact-infos {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+#contact .contact-container .container .contact-infos .left h2 {
+  padding: 30px 0;
+}
+#contact .contact-container .container .contact-infos .left ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+#contact .contact-container .container .contact-infos .left ul li a {
+  color: #070604;
+}
+#contact .contact-container .container .contact-infos .left ul li a:hover {
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#contact .contact-container .container .contact-infos .left p {
+  line-height: 30px;
+}
+#contact .contact-container .container .contact-infos .left .social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+#contact .contact-container .container .contact-infos .left .social-link i {
+  font-size: 1.7rem;
+  color: #333;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#contact .contact-container .container .contact-infos .left .social-link i:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#contact .contact-container .container .contact-infos .right h2 {
+  padding-bottom: 30px;
+}
+#contact .contact-container .container .contact-infos .right form label {
+  display: block;
+  padding: 5px;
+}
+#contact .contact-container .container .contact-infos .right form label input {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+#contact .contact-container .container .contact-infos .right form label textarea {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+  padding: 5px 10px;
 }/*# sourceMappingURL=index.css.map */
