@@ -112,10 +112,10 @@ header {
         }
 
         #menuAbout,
-        #menuServices,
+        #menuProgrammes,
         #menuRessources {
           .menuAboutNav,
-          .menuServicesNav,
+          .menuProgrammesNav,
           .menuRessourcesNav {
             display: none;
 
@@ -147,7 +147,7 @@ header {
             position: relative;
 
             .menuAboutNav,
-            .menuServicesNav,
+            .menuProgrammesNav,
             .menuRessourcesNav {
               display: block;
               position: absolute;

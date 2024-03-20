@@ -43,6 +43,10 @@ a:visited {
   text-align: center;
 }
 
+.intro p {
+  padding-bottom: 30px;
+}
+
 button {
   margin-top: 20px;
   padding: 10px 20px;
@@ -83,11 +87,7 @@ button:hover a {
   }
 }
 .title-page .container h1 {
-  padding-bottom: 30px;
   text-transform: uppercase;
-}
-.title-page .container p {
-  color: #333;
 }
 
 header {
@@ -220,46 +220,46 @@ header nav .menuNav .NavListLi .liNav:hover {
   }
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav,
-header nav .menuNav .NavListLi #menuAbout .menuServicesNav,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav,
 header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav,
-header nav .menuNav .NavListLi #menuServices .menuAboutNav,
-header nav .menuNav .NavListLi #menuServices .menuServicesNav,
-header nav .menuNav .NavListLi #menuServices .menuRessourcesNav,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav,
 header nav .menuNav .NavListLi #menuRessources .menuAboutNav,
-header nav .menuNav .NavListLi #menuRessources .menuServicesNav,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav {
   display: none;
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul,
-header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul,
 header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul,
-header nav .menuNav .NavListLi #menuServices .menuAboutNav ul,
-header nav .menuNav .NavListLi #menuServices .menuServicesNav ul,
-header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul,
 header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul,
-header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul {
   width: 200px;
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li,
-header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li,
 header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li,
-header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li,
-header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li,
-header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li,
 header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li,
-header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li {
   position: relative;
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li i,
-header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li i,
 header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li i,
-header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li i,
-header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li i,
-header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li i,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li i,
 header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li i,
-header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li i,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li i,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li i {
   position: absolute;
   top: 50%;
@@ -269,56 +269,56 @@ header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li i {
 }
 @media screen and (max-width: 1090px) {
   header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li i,
-  header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li i,
+  header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li i,
   header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li i,
-  header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li i,
-  header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li i,
-  header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li i,
+  header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li i,
+  header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li i,
+  header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li i,
   header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li i,
-  header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li i,
+  header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li i,
   header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li i {
     display: none;
   }
 }
 header nav .menuNav .NavListLi #menuAbout .menuAboutNav ul li a,
-header nav .menuNav .NavListLi #menuAbout .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuAbout .menuProgrammesNav ul li a,
 header nav .menuNav .NavListLi #menuAbout .menuRessourcesNav ul li a,
-header nav .menuNav .NavListLi #menuServices .menuAboutNav ul li a,
-header nav .menuNav .NavListLi #menuServices .menuServicesNav ul li a,
-header nav .menuNav .NavListLi #menuServices .menuRessourcesNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuAboutNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuProgrammesNav ul li a,
+header nav .menuNav .NavListLi #menuProgrammes .menuRessourcesNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuAboutNav ul li a,
-header nav .menuNav .NavListLi #menuRessources .menuServicesNav ul li a,
+header nav .menuNav .NavListLi #menuRessources .menuProgrammesNav ul li a,
 header nav .menuNav .NavListLi #menuRessources .menuRessourcesNav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 header nav .menuNav .NavListLi #menuAbout:hover,
-header nav .menuNav .NavListLi #menuServices:hover,
+header nav .menuNav .NavListLi #menuProgrammes:hover,
 header nav .menuNav .NavListLi #menuRessources:hover {
   display: block;
   position: relative;
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav,
-header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav,
+header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav,
 header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav,
-header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav,
-header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav,
-header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav,
 header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav,
-header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav,
+header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav {
   display: block;
   position: absolute;
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul,
-header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul,
+header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav ul,
 header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul,
-header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul,
-header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul,
-header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav ul,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav ul,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav ul,
 header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul,
-header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul,
+header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav ul,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   display: block;
   text-align: left;
@@ -330,13 +330,13 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
 }
 @media screen and (max-width: 1090px) {
   header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul,
-  header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul,
+  header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav ul,
   header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul,
-  header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul,
-  header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul,
-  header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul,
+  header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav ul,
+  header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav ul,
+  header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav ul,
   header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul,
-  header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul,
+  header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav ul,
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
     width: 100%;
     text-align: center;
@@ -344,13 +344,13 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul {
   }
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li,
-header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav ul li,
 header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul li,
-header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul li,
-header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul li,
-header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav ul li,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav ul li,
 header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li,
-header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li,
+header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav ul li,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li {
   list-style: none;
   padding: 10px;
@@ -359,38 +359,38 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li {
 }
 @media screen and (max-width: 1090px) {
   header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li,
-  header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul li,
+  header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav ul li,
   header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul li,
-  header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul li,
-  header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul li,
-  header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul li,
+  header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav ul li,
+  header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav ul li,
+  header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav ul li,
   header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li,
-  header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li,
+  header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav ul li,
   header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li {
     width: 87.5vw;
   }
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li:hover,
-header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul li:hover,
+header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav ul li:hover,
 header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul li:hover,
-header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul li:hover,
-header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul li:hover,
-header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul li:hover,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav ul li:hover,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav ul li:hover,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover,
-header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover,
+header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav ul li:hover,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover {
   background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
   -webkit-transform: none;
           transform: none;
 }
 header nav .menuNav .NavListLi #menuAbout:hover .menuAboutNav ul li:hover a,
-header nav .menuNav .NavListLi #menuAbout:hover .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuAbout:hover .menuProgrammesNav ul li:hover a,
 header nav .menuNav .NavListLi #menuAbout:hover .menuRessourcesNav ul li:hover a,
-header nav .menuNav .NavListLi #menuServices:hover .menuAboutNav ul li:hover a,
-header nav .menuNav .NavListLi #menuServices:hover .menuServicesNav ul li:hover a,
-header nav .menuNav .NavListLi #menuServices:hover .menuRessourcesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuAboutNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuProgrammesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuProgrammes:hover .menuRessourcesNav ul li:hover a,
 header nav .menuNav .NavListLi #menuRessources:hover .menuAboutNav ul li:hover a,
-header nav .menuNav .NavListLi #menuRessources:hover .menuServicesNav ul li:hover a,
+header nav .menuNav .NavListLi #menuRessources:hover .menuProgrammesNav ul li:hover a,
 header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:hover a {
   color: #070604;
 }
@@ -737,14 +737,13 @@ footer .footerNiveau2 .container p a:hover {
 
 #programmes .programmes .container h2 {
   padding-bottom: 30px;
-  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #programmes .programmes .container img {
   width: 100%;
   padding-bottom: 30px;
+}
+#programmes .programmes .container p {
+  padding-bottom: 20px;
 }
 #programmes .programmes .container .services-container {
   margin: 20px auto;
@@ -755,52 +754,83 @@ footer .footerNiveau2 .container p a:hover {
 #programmes .programmes .container .services-container div {
   padding: 20px;
 }
-#programmes .programmes .container .left {
-  display: grid;
-  grid-template-columns: 30% 70%;
-}
+#programmes .programmes .container .left,
 #programmes .programmes .container .right {
   display: grid;
+}
+#programmes .programmes .container .left {
+  grid-template-columns: 30% 70%;
+}
+@media screen and (max-width: 1040px) {
+  #programmes .programmes .container .left {
+    grid-template-columns: 1fr;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+#programmes .programmes .container .right {
   grid-template-columns: 70% 30%;
 }
+@media screen and (max-width: 1040px) {
+  #programmes .programmes .container .right {
+    grid-template-columns: 1fr;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
 
-#ressources .ressources .container {
+#ressources .ressources .container .intro p {
+  padding-bottom: 50px;
+}
+#ressources .ressources .container .ressources-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
 @media screen and (max-width: 1080px) {
-  #ressources .ressources .container {
+  #ressources .ressources .container .ressources-container {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 790px) {
-  #ressources .ressources .container {
+  #ressources .ressources .container .ressources-container {
     grid-template-columns: 1fr;
   }
 }
-#ressources .ressources .container a {
+#ressources .ressources .container .ressources-container a {
   text-decoration: none;
   color: #333;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   padding: 30px;
   border-radius: 20px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
-#ressources .ressources .container a i,
-#ressources .ressources .container a h2 {
-  color: #834cf8;
+#ressources .ressources .container .ressources-container a i,
+#ressources .ressources .container .ressources-container a h2 {
+  color: #070604;
   padding-bottom: 30px;
 }
-#ressources .ressources .container a:hover {
+#ressources .ressources .container .ressources-container a:hover {
   background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
-#ressources .ressources .container a:hover i,
-#ressources .ressources .container a:hover h2 {
+#ressources .ressources .container .ressources-container a:hover i,
+#ressources .ressources .container .ressources-container a:hover h2 {
   color: #fff;
 }
-#ressources .ressources .container a .ressources-container i {
+#ressources .ressources .container .ressources-container a .ressources-infos i {
   font-size: 4rem;
 }/*# sourceMappingURL=index.css.map */

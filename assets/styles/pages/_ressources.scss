@@ -1,43 +1,50 @@
 #ressources {
   .ressources {
     .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 30px;
-
-      @media screen and (max-width: 1080px) {
-        grid-template-columns: 1fr 1fr;
+      .intro {
+        p {
+          padding-bottom: 50px;
+        }
       }
-      @media screen and (max-width: 790px) {
-        grid-template-columns: 1fr;
-      }
-
-      a {
-        text-decoration: none;
-        color: $text;
-        box-shadow: 0 0 5px $blackShadow;
-        padding: 30px;
-        border-radius: 20px;
-        transition: 0.2s;
-
-        i,
-        h2 {
-          color: $color1;
-          padding-bottom: 30px;
+      .ressources-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        @media screen and (max-width: 1080px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (max-width: 790px) {
+          grid-template-columns: 1fr;
         }
 
-        &:hover {
-          background: $bg;
+        a {
+          text-decoration: none;
+          color: $text;
+          box-shadow: 0 0 5px $blackShadow;
+          padding: 30px;
+          border-radius: 20px;
+          transition: 0.3s;
 
           i,
           h2 {
-            color: $white1;
+            color: $black1;
+            padding-bottom: 30px;
           }
-        }
 
-        .ressources-container {
-          i {
-            font-size: 4rem;
+          &:hover {
+            background: $bg;
+            transform: scale(1.02);
+
+            i,
+            h2 {
+              color: $white1;
+            }
+          }
+
+          .ressources-infos {
+            i {
+              font-size: 4rem;
+            }
           }
         }
       }

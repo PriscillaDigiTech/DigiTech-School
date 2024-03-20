@@ -27,6 +27,15 @@ $bg: linear-gradient(45deg, $color4, $color5, $color6, $color7, $color8);
 $blackShadow: rgba(0, 0, 0, 0.25);
 $whiteShadow: rgba(255, 255, 255, 0.25);
 
+//mixin
+
+@mixin gradient {
+  background: $bg;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 //general
 * {
   margin: 0;
@@ -64,4 +73,10 @@ a:visited {
   margin: 0 auto;
   padding: 50px 0;
   text-align: center;
+}
+
+.intro {
+  p {
+    padding-bottom: 30px;
+  }
 }
