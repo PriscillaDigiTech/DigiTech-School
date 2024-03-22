@@ -400,6 +400,14 @@ header nav .menuNav .NavListLi #menuRessources:hover .menuRessourcesNav ul li:ho
   color: #070604;
 }
 
+#header-maintenance nav {
+  display: block;
+  text-align: center;
+}
+#header-maintenance nav img {
+  width: 10%;
+}
+
 .contact {
   background: url(../img/12.png) center/cover;
   padding: 100px;
@@ -511,6 +519,34 @@ footer .footerNiveau2 .container p a {
 }
 footer .footerNiveau2 .container p a:hover {
   color: #fff;
+}
+
+#footer-maintenance .footerNiveau1 .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 905px) {
+  #footer-maintenance .footerNiveau1 .container {
+    grid-template-columns: 1fr;
+  }
+}
+#footer-maintenance .footerNiveau1 .container img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#maintenance h1 {
+  padding-bottom: 30px;
+}
+#maintenance a {
+  font-weight: bold;
+  color: #333;
+}
+#maintenance a:hover {
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #accueil .accueil .container {

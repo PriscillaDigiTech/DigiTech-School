@@ -91,3 +91,21 @@ footer {
     }
   }
 }
+
+#footer-maintenance {
+  .footerNiveau1 {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      @media screen and (max-width: 905px) {
+        grid-template-columns: 1fr;
+      }
+
+      img {
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+#maintenance {
+  h1 {
+    padding-bottom: 30px;
+  }
+
+  a {
+    font-weight: bold;
+    color: $text;
+
+    &:hover {
+      @include gradient;
+    }
+  }
+}
