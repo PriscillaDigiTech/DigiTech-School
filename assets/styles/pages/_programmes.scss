@@ -12,6 +12,7 @@
 
       p {
         padding-bottom: 20px;
+        line-height: 30px;
       }
 
       .services-container {
@@ -44,6 +45,22 @@
           grid-template-columns: 1fr;
           display: flex;
           flex-direction: column-reverse;
+        }
+      }
+
+      .services-infos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+
+        h3 {
+          padding-bottom: 30px;
+        }
+
+        small {
+          font-size: 0.8rem;
+          line-height: 20px;
+          padding-top: 30px;
         }
       }
     }

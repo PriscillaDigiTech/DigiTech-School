@@ -785,6 +785,7 @@ footer .footerNiveau2 .container p a:hover {
 }
 #programmes .programmes .container p {
   padding-bottom: 20px;
+  line-height: 30px;
 }
 #programmes .programmes .container .services-container {
   margin: 20px auto;
@@ -828,6 +829,21 @@ footer .footerNiveau2 .container p a:hover {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+}
+#programmes .programmes .container .services-infos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#programmes .programmes .container .services-infos h3 {
+  padding-bottom: 30px;
+}
+#programmes .programmes .container .services-infos small {
+  font-size: 0.8rem;
+  line-height: 20px;
+  padding-top: 30px;
 }
 
 #ressources .ressources .container .intro p {
