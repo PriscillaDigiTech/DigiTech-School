@@ -18,12 +18,18 @@
       .services-container {
         margin: 20px auto;
         align-items: center;
+        padding: 50px;
 
         div {
-          padding: 20px;
+          img {
+            width: 100%;
+
+            @media screen and (max-width: 770px) {
+              width: 50%;
+            }
+          }
         }
       }
-
       .left,
       .right {
         display: grid;
@@ -31,36 +37,22 @@
 
       .left {
         grid-template-columns: 30% 70%;
-        @media screen and (max-width: 1040px) {
+        background: $bg;
+        border-radius: 20px;
+        box-shadow: 0 0 5px $blackShadow;
+
+        @media screen and (max-width: 770px) {
           grid-template-columns: 1fr;
-          display: flex;
-          flex-direction: column;
         }
       }
 
       .right {
         grid-template-columns: 70% 30%;
 
-        @media screen and (max-width: 1040px) {
+        @media screen and (max-width: 770px) {
           grid-template-columns: 1fr;
           display: flex;
           flex-direction: column-reverse;
-        }
-      }
-
-      .services-infos {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        align-items: center;
-
-        h3 {
-          padding-bottom: 30px;
-        }
-
-        small {
-          font-size: 0.8rem;
-          line-height: 20px;
-          padding-top: 30px;
         }
       }
     }

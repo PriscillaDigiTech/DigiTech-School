@@ -7,10 +7,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   font-family: nunito, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
@@ -18,6 +14,7 @@ body {
   color: #333;
   font-size: 1rem;
   text-align: center;
+  line-height: 30px;
 }
 
 h1,
@@ -668,7 +665,6 @@ footer .footerNiveau2 .container p a:hover {
 }
 #accueil .about .container p {
   padding-bottom: 20px;
-  color: #fff;
 }
 #accueil .about .container img {
   width: 100%;
@@ -792,9 +788,15 @@ footer .footerNiveau2 .container p a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 50px;
 }
-#programmes .programmes .container .services-container div {
-  padding: 20px;
+#programmes .programmes .container .services-container div img {
+  width: 100%;
+}
+@media screen and (max-width: 770px) {
+  #programmes .programmes .container .services-container div img {
+    width: 50%;
+  }
 }
 #programmes .programmes .container .left,
 #programmes .programmes .container .right {
@@ -802,23 +804,20 @@ footer .footerNiveau2 .container p a:hover {
 }
 #programmes .programmes .container .left {
   grid-template-columns: 30% 70%;
+  background: linear-gradient(45deg, #f1b1fc, #d6bff6, #72daea, #72f0d8, #dcf8be);
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 770px) {
   #programmes .programmes .container .left {
     grid-template-columns: 1fr;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 #programmes .programmes .container .right {
   grid-template-columns: 70% 30%;
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 770px) {
   #programmes .programmes .container .right {
     grid-template-columns: 1fr;
     display: -webkit-box;
@@ -829,21 +828,6 @@ footer .footerNiveau2 .container p a:hover {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-}
-#programmes .programmes .container .services-infos {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-#programmes .programmes .container .services-infos h3 {
-  padding-bottom: 30px;
-}
-#programmes .programmes .container .services-infos small {
-  font-size: 0.8rem;
-  line-height: 20px;
-  padding-top: 30px;
 }
 
 #ressources .ressources .container .intro p {
