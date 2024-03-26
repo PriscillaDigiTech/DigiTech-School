@@ -1013,6 +1013,16 @@ footer .footerNiveau2 .container p a:hover {
 #inscription .inscription-container .container .inscription-infos .right form label select {
   margin: 10px;
 }
+#inscription .inscription-container .container .inscription-infos .right form #enfant_info label {
+  display: block;
+  padding: 5px;
+}
+#inscription .inscription-container .container .inscription-infos .right form #enfant_info label input {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
 #inscription .inscription-container .container .inscription-infos .right form #label-programme {
   display: block;
 }
