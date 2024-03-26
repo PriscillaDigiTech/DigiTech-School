@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Inscription | DigiTech School | L'école du numérique pour enfants à
+      Tarascon
+    </title>
+    <meta
+      name="description"
+      content="Inscrivez-vous dès aujourd'hui aux programmes éducatifs innovants de DigiTech School à Tarascon. Découvrez nos tarifs, horaires et conditions d'inscription pour les enfants, les familles et les établissements scolaires.
+
+      "
+    />
+    <meta
+      name="keywords"
+      content="inscription, programmes éducatifs, DigiTech School, Tarascon, enfants, familles, établissements scolaires, tarifs, horaires, conditions"
+    />
+    <link rel="shortcut icon" href="./assets/img/logo_digitech_school.PNG" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body onload="windowLoad()">
+    <header>
+      <nav>
+        <a href="./index.html">
+          <img
+            src="./assets/img/logo_digitech_school.PNG"
+            alt="Logo DigiTech School"
+          />
+        </a>
+        <div class="menu-icons">
+          <i class="fa-solid fa-bars" id="open-icon" onclick="openNav()"></i>
+          <i class="fa-solid fa-xmark" id="close-icon" onclick="closeNav()"></i>
+        </div>
+        <div class="menuNav">
+          <ul class="NavListLi">
+            <li class="liNav"><a href="./index.html">Accueil</a></li>
+            <li class="liNav">
+              <a href="./a-propos.html">À propos</a>
+            </li>
+            <li class="liNav" id="menuProgrammes">
+              <a href="./nos-programmes.html"
+                >Nos programmes <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <div class="menuProgrammesNav">
+                <ul>
+                  <li>
+                    <a href="./digikids.html">DigiKids</a>
+                  </li>
+
+                  <li>
+                    <a href="./digibootcamp.html">DigiBootCamp</a>
+                  </li>
+                  <li>
+                    <a href="./digifamily.html">DigiFamily</a>
+                  </li>
+                  <li>
+                    <a href="./digiscolaire.html">DigiScolaire </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="liNav" id="menuRessources">
+              <a href="./ressources.html"
+                >Ressources <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <div class="menuRessourcesNav">
+                <ul>
+                  <li>
+                    <a href="./articles.html">Articles</a>
+                  </li>
+                  <li>
+                    <a href="./outils-recommandes.html">Outils recommandés</a>
+                  </li>
+                  <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a href="./actualites.html">Actualités</a>
+            </li>
+            <li class="liNav">
+              <a href="./nous-contacter.html">Nous contacter</a>
+            </li>
+            <li class="liNav">
+              <a href="./inscription.html"><button>Inscription</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="inscription">
+      <section class="title-page">
+        <div class="container">
+          <h1>Inscription</h1>
+        </div>
+      </section>
+      <section class="inscription-container">
+        <div class="container">
+          <div class="intro">
+            <p>
+              Nous sommes ravis que vous envisagiez de rejoindre nos programmes
+              éducatifs innovants. Pour faciliter le processus d'inscription,
+              veuillez remplir le formulaire ci-dessous avec vos informations.
+              Une fois que vous aurez soumis le formulaire, notre équipe vous
+              contactera dans les plus brefs délais pour finaliser votre
+              inscription et répondre à toutes vos questions. Nous sommes
+              impatients de vous accueillir chez DigiTech School et de commencer
+              cette excitante aventure éducative ensemble !
+            </p>
+          </div>
+          <div class="inscription-infos">
+            <div class="right">
+              <h2>Formulaire d'inscription</h2>
+              <form action="https://formspree.io/f/xoqgkqjz" method="POST">
+                <label for="nom"
+                  >Nom et prénom du demandeur<sup>*</sup>
+
+                  <input type="text" id="nom" name="nom" required />
+                </label>
+
+                <label for="email"
+                  >Email<sup>*</sup>
+
+                  <input type="email" id="email" name="email" required />
+                </label>
+
+                <label for="telephone"
+                  >Téléphone<sup>*</sup>
+                  <input type="tel" id="telephone" name="telephone" required />
+                </label>
+
+                <label for="fonction"
+                  >Fonction (parent, chef(fe) d'établissement...)
+
+                  <input type="text" id="fonction" name="fonction" />
+                </label>
+
+                <label
+                  id="label-programme"
+                  class="programme-form"
+                  for="programmes"
+                  >Programmes<sup>*</sup> :
+                  <label for="digikids">
+                    <input
+                      type="checkbox"
+                      id="digikids"
+                      name="programmes"
+                      value="DigiKids"
+                    />
+
+                    DigiKids</label
+                  >
+                  <label for="digibootcamp">
+                    <input
+                      type="checkbox"
+                      id="digibootcamp"
+                      name="programmes"
+                      value="DigiBootCamp"
+                    />
+
+                    DigiBootCamp</label
+                  >
+
+                  <label for="digifamily">
+                    <input
+                      type="checkbox"
+                      id="digifamily"
+                      name="programmes"
+                      value="DigiFamily"
+                    />
+                    DigiFamily</label
+                  >
+
+                  <label for="digiscolaire">
+                    <input
+                      type="checkbox"
+                      id="digiscolaire"
+                      name="programmes"
+                      value="DigiScolaire"
+                    />
+                    DigiScolaire</label
+                  >
+                </label>
+                <div id="enfant_info" style="display: none">
+                  <label for="nom_enfant">Nom de l'enfant<sup>*</sup></label>
+                  <input type="text" id="nom_enfant" name="nom_enfant" />
+                  <label for="age_enfant">Âge de l'enfant<sup>*</sup></label>
+                  <input
+                    type="number"
+                    id="age_enfant"
+                    name="age_enfant"
+                    min="0"
+                    max="17"
+                  />
+                </div>
+
+                <label for="financement"
+                  >Financement<sup>*</sup>
+                  <select id="financement" name="financement" required>
+                    <option value="">Choisir...</option>
+                    <optgroup label="DigiKids">
+                      <option value="1fois">Paiement en 1 fois</option>
+                      <option value="4fois">Paiement en 4 fois</option>
+                    </optgroup>
+                    <optgroup label="DigiBootCamp">
+                      <option value="1fois">Paiement en 1 fois</option>
+                      <option value="6fois">Paiement en 6 fois</option>
+                    </optgroup>
+                    <optgroup label="DigiFamily">
+                      <option value="1fois">Paiement en 1 fois</option>
+                    </optgroup>
+                    <optgroup label="DigiScolaire">
+                      <option value="devis">Devis</option>
+                    </optgroup>
+                  </select>
+                </label>
+
+                <label for="message"
+                  >Message
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    cols="50"
+                  ></textarea>
+                </label>
+
+                <button type="submit">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2>Rejoignez-nous dès aujourd'hui</h2>
+          <p>
+            Si vous partagez notre passion pour l'éducation numérique et
+            créative et que vous souhaitez en savoir plus sur nos programmes et
+            nos services, n'hésitez pas à nous contacter. Nous serions ravis de
+            vous accueillir chez DigiTech School et de vous aider à explorer le
+            monde passionnant de la technologie et de la créativité !
+          </p>
+          <button><a href="./nous-contacter.html">Contactez-nous</a></button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footerNiveau1">
+        <div class="container">
+          <div>
+            <a href="./index.html"
+              ><img
+                src="./assets/img/logo_digitech_school.PNG"
+                alt="Logo DigiTech School"
+            /></a>
+          </div>
+          <div>
+            <h4>Liens utiles</h4>
+            <ul>
+              <li><a href="./a-propos.html"> À propos </a></li>
+              <li><a href="./nos-programmes.html"> Programmes </a></li>
+              <li><a href="./ressources.html">Ressources</a></li>
+              <li><a href="./nous-contacter.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Mentions légales</h4>
+            <ul>
+              <li><a href="./mentions-legales.html">Mentions légales</a></li>
+              <li><a href="./confidentialite.html">Confidentialité</a></li>
+              <li><a href="./cgu.html">CGU</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Nous suivre</h4>
+            <ul class="social-link">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61557559340738"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/digitechschool13150?igsh=MWtrczdnaXBzMXE4eA%3D%3D&utm_source=qr"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/digitech-school-7382662ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/DigiTechSchool" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footerNiveau2">
+        <div class="container">
+          <p>
+            ©2024 | <a href="https://digitechschool.fr">DigiTech School</a> by
+            <a href="https://priscilladigitech.fr" target="_blank"
+              >Priscilla DigiTech</a
+            >
+            | Tous droits réservés.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

@@ -986,4 +986,47 @@ footer .footerNiveau2 .container p a:hover {
   width: 85%;
   margin: 10px auto;
   padding: 5px 10px;
+}
+
+#inscription .inscription-container .container .intro p {
+  padding-bottom: 50px;
+}
+#inscription .inscription-container .container .inscription-infos .right h2 {
+  padding-bottom: 30px;
+}
+#inscription .inscription-container .container .inscription-infos .right form label {
+  display: block;
+  padding: 5px;
+}
+#inscription .inscription-container .container .inscription-infos .right form label input {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+#inscription .inscription-container .container .inscription-infos .right form label textarea {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+#inscription .inscription-container .container .inscription-infos .right form label select {
+  margin: 10px;
+}
+#inscription .inscription-container .container .inscription-infos .right form #label-programme {
+  display: block;
+}
+#inscription .inscription-container .container .inscription-infos .right form #label-programme label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#inscription .inscription-container .container .inscription-infos .right form #label-programme label input {
+  margin: 10px;
 }/*# sourceMappingURL=index.css.map */

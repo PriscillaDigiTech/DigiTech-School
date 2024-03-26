@@ -23,3 +23,22 @@ function closeNav() {
   openIcon.style.display = "block";
   navList.style.display = "none";
 }
+
+//formulaire d'inscription
+
+document.addEventListener("DOMContentLoaded", function () {
+  var checkboxes = document.querySelectorAll('input[name="programmes"]');
+  var enfantInfo = document.getElementById("enfant_info");
+
+  checkboxes.forEach(function (checkbox) {
+    checkbox.addEventListener("change", function () {
+      if (checkbox.value === "DigiKids" || checkbox.value === "DigiBootCamp") {
+        if (checkbox.checked) {
+          enfantInfo.style.display = "block";
+        } else {
+          enfantInfo.style.display = "none";
+        }
+      }
+    });
+  });
+});

@@ -1,0 +1,55 @@
+#inscription {
+  .inscription-container {
+    .container {
+      .intro {
+        p {
+          padding-bottom: 50px;
+        }
+      }
+      .inscription-infos {
+        .right {
+          h2 {
+            padding-bottom: 30px;
+          }
+          form {
+            label {
+              display: block;
+              padding: 5px;
+              input {
+                display: block;
+                width: 85%;
+                margin: 10px auto;
+                padding: 5px 10px;
+              }
+
+              textarea {
+                display: block;
+                width: 85%;
+                margin: 10px auto;
+                padding: 5px 10px;
+              }
+
+              select {
+                margin: 10px;
+              }
+            }
+
+            #label-programme {
+              display: block;
+
+              label {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+
+                input {
+                  margin: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
